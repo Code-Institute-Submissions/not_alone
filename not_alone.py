@@ -8,7 +8,7 @@ app = Flask(__name__)
 MONGODB_HOST = 'localhost'
 MONGODB_PORT = 27017
 DBS_NAME = 'mentalHealth'
-COLLECTION_NAME = 'conditions'
+COLLECTION_NAME = 'mortality_employment'
 
 
 @app.route("/")
