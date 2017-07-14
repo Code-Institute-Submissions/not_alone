@@ -10,7 +10,7 @@ function makeGraphs(error, projectsJson) {
    mhEmploymentMortality.forEach(function (d) {
        d["Year"] = dateFormat.parse(d["Year"]);
        d["Year"].setDate(1);
-       d["mhEmployment"] = +d["mhEmployment"];
+       d["mhEmployment-nd"] = +d["mhEmployment-nd"];
    });
 
 
@@ -65,7 +65,7 @@ function makeGraphs(error, projectsJson) {
    var YearChart = dc.barChart("#Year-chart");
    var MhDeathsChart = dc.rowChart("#mhDeaths-row-chart");
    var popEmploymentChart = dc.rowChart("#popEmployment-row-chart");
-   var numberProjectsND = dc.numberDisplay("#number-projects-nd");
+   var numberProjectsND = dc.numberDisplay("#number-projects-nd"); // need to update to my data - not sure what should go there
    var mhDeathReading = dc.numberDisplay("#mhDeaths-nd");
    var MhEmploymentChart = dc.pieChart("#mhEmployment");
 
@@ -75,7 +75,7 @@ function makeGraphs(error, projectsJson) {
        .group(YearGroup); // should be right
 
 
-   numberProjectsND
+   numberProjectsND  // need to update to my data - not sure what should go there
        .formatNumber(d3.format("d"))
        .valueAccessor(function (d) {
            return d;
