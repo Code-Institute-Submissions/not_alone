@@ -1,3 +1,4 @@
+
 #number-projects-nd {
    font-size: 60px;
 }
@@ -10,7 +11,7 @@
 
 
 .dc-chart g.row text {
-   fill: black;
+   fill: green;
    font-size: 12px;
 }
 
@@ -54,4 +55,180 @@
    padding-top: 4px;
    padding-bottom: 0px;
 
+}
+
+/* my new css*/
+
+#container{
+	display: flex;
+	flex-flow: row wrap;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	background-color: #ccffcc;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 0;
+}
+
+.landing-message{
+	flex-direction: row;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	font-size: 30px;
+	margin: 50px auto;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	}
+
+#text
+	{
+	font-family: 'Kalam', cursive;
+	color: #808080;
+	font-size: 150%;
+	text-align: center;
+	display: block;
+	}
+
+#background{
+	background-image: url("images/backdrop.jpg");
+}
+
+#text2
+	{
+	font-family: 'Kalam', cursive;
+	color: #121382;
+	font-variant: small-caps;
+	text-align: center;
+	display: block;
+	}
+
+#centered {
+  transform: translate(-20%);
+}
+
+#imageright{
+	float: right;
+	padding: 5px;
+	padding-right: 20px;
+}
+
+#imagecenter{
+	float: left;
+	padding: 5px;
+}
+
+#brain{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#captionleft{
+	position: block;
+}
+
+.scrollbox{
+  overflow: auto;
+  width: 600px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* all nav bar below */
+
+.navbar-default {
+  background-color: #121382;
+  border-color: #2e59cd;
+}
+.navbar-default .navbar-brand {
+  color: #afafaf;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffa500;
+}
+.navbar-default .navbar-text {
+  color: #afafaf;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #afafaf;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffa500;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #121382;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #afafaf;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ffa500;
+  background-color: #2e59cd;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
+  background-color: #2e59cd;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ffa500;
+  background-color: #2e59cd;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffa500;
+  background-color: #2e59cd;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffa500;
+  background-color: #2e59cd;
+}
+.navbar-default .navbar-toggle {
+  border-color: #2e59cd;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #2e59cd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #afafaf;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #afafaf;
+}
+.navbar-default .navbar-link {
+  color: #afafaf;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffa500;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #afafaf;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffa500;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffa500;
+    background-color: #2e59cd;
+  }
 }

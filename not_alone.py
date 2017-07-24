@@ -8,7 +8,7 @@ app = Flask(__name__)
 MONGODB_HOST = 'localhost'
 MONGODB_PORT = 27017
 DBS_NAME = 'mentalHealth'
-COLLECTION_NAME = 'mortality_employment'
+COLLECTION_NAME = 'employment'
 
 
 @app.route("/")
@@ -16,11 +16,23 @@ def index():
     """
     A Flask view to serve the main dashboard page.
     """
-    return render_template("index.html")
+    return render_template("index_3.html")
 
 
-@app.route("/mentalHealth/conditions")
-def mentalHealth_conditions():
+@app.route("/real_stories")
+def realStories():
+
+    return render_template("real_stories.html")
+
+
+@app.route("/charts")
+def charts():
+
+    return render_template("charts.html")
+
+
+@app.route("/mentalHealth/employment")
+def mentalHealth_employment():
     """
     A Flask view to serve the project data from
     MongoDB in JSON format.
@@ -28,18 +40,15 @@ def mentalHealth_conditions():
 
     # A constant that defines the record fields that we wish to retrieve.
     FIELDS = {
-        '_id': False, 'Area': True, 'Any neurotic disorder-Estimated cases': True,
-        'All phobias-Estimated cases': True, 'Depressive episode-Estimated cases': True,
-        'Generalised anxiety disorder-Estimated cases': True, 'Mixed anxiety depression-Estimated cases': True,
-        'Obsessive compulsive disorder-Estimated cases': True, 'Panic disorder-Estimated cases': True,
-        'Population 16-74': True
+        '_id': False, 'Year': True, 'Quarter': True, 'Region': True, 'Age': True, 'Gender': True,
+        'Employment rate of people with mental illness': True, 'Employment rate of population': True
     }
 
     # Open a connection to MongoDB using a with statement such that the
     # connection will be closed as soon as we exit the with statement
     with MongoClient(MONGODB_HOST, MONGODB_PORT) as conn:
         # Define which collection we wish to access
-        collection = conn[mentalHealth][conditions]
+        collection = conn[DBS_NAME][COLLECTION_NAME]
         # Retrieve a result set only with the fields defined in FIELDS
         # and limit the the results to 55000
         projects = collection.find(projection=FIELDS, limit=55000)

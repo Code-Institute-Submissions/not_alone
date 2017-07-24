@@ -1,0 +1,710 @@
+Year,Quarter,Region,Age,Gender,Employment rate of people with mental illness,Employment rate of population 
+2006,4,England,16 to 19,Any,27,47
+2006,4,England,20 to 24,Any,29,55
+2006,4,England,25 to 29,Any,33,80
+2006,4,England,30 to 34,Any,31,80
+2006,4,England,35 to 39,Any,30,81
+2006,4,England,40 to 44,Any,30,83
+2006,4,England,45 to 49,Any,30,83
+2006,4,England,50 to 54,Any,28,80
+2006,4,England,55 to 59,Any,21,70
+2006,4,England,60 to 64,Any,13,45
+2006,3,England,16 to 19,Any,23,47
+2006,3,England,20 to 24,Any,36,71
+2006,3,England,25 to 29,Any,31,80
+2006,3,England,30 to 34,Any,27,80
+2006,3,England,35 to 39,Any,35,81
+2006,3,England,40 to 44,Any,35,83
+2006,3,England,45 to 49,Any,34,84
+2006,3,England,50 to 54,Any,25,80
+2006,3,England,55 to 59,Any,25,70
+2006,3,England,60 to 64,Any,14,69
+2007,4,England,16 to 19,Any,28,46
+2007,4,England,20 to 24,Any,35,69
+2007,4,England,25 to 29,Any,34,79
+2007,4,England,30 to 34,Any,35,81
+2007,4,England,35 to 39,Any,28,81
+2007,4,England,40 to 44,Any,32,83
+2007,4,England,45 to 49,Any,28,83
+2007,4,England,50 to 54,Any,28,80
+2007,4,England,55 to 59,Any,20,70
+2007,4,England,60 to 64,Any,12,46
+2007,3,England,16 to 19,Any,27,45
+2007,3,England,20 to 24,Any,35,70
+2007,3,England,25 to 29,Any,34,800
+2007,3,England,30 to 34,Any,29,80
+2007,3,England,35 to 39,Any,29,80
+2007,3,England,40 to 44,Any,30,83
+2007,3,England,45 to 49,Any,26,82
+2007,3,England,50 to 54,Any,34,80
+2007,3,England,55 to 59,Any,20,69
+2007,3,England,60 to 64,Any,10,45
+2007,2,England,16 to 19,Any,27,41
+2007,2,England,20 to 24,Any,27,67
+2007,2,England,25 to 29,Any,37,79
+2007,2,England,30 to 34,Any,32,80
+2007,2,England,35 to 39,Any,25,80
+2007,2,England,40 to 44,Any,29,83
+2007,2,England,45 to 49,Any,27,82
+2007,2,England,50 to 54,Any,32,80
+2007,2,England,55 to 59,Any,19,69
+2007,2,England,60 to 64,Any,12,45
+2007,1,England,16 to 19,Any,26,42
+2007,1,England,20 to 24,Any,31,67
+2007,1,England,25 to 29,Any,33,79
+2007,1,England,30 to 34,Any,30,89
+2007,1,England,35 to 39,Any,25,80
+2007,1,England,40 to 44,Any,30,83
+2007,1,England,45 to 49,Any,26,82
+2007,1,England,50 to 54,Any,31,80
+2007,1,England,55 to 59,Any,25,69
+2007,1,England,60 to 64,Any,12,44
+2008,4,England,16 to 19,Any,20,43
+2008,4,England,20 to 24,Any,38,67
+2008,4,England,25 to 29,Any,35,79
+2008,4,England,30 to 34,Any,31,81
+2008,4,England,35 to 39,Any,30,81
+2008,4,England,40 to 44,Any,25,82
+2008,4,England,45 to 49,Any,28,83
+2008,4,England,50 to 54,Any,27,80
+2008,4,England,55 to 59,Any,23,71
+2008,4,England,60 to 64,Any,16,46
+2008,3,England,16 to 19,Any,23,45
+2008,3,England,20 to 24,Any,37,68
+2008,3,England,25 to 29,Any,35,79
+2008,3,England,30 to 34,Any,31,80
+2008,3,England,35 to 39,Any,27,80
+2008,3,England,40 to 44,Any,29,82
+2008,3,England,45 to 49,Any,30,83
+2008,3,England,50 to 54,Any,27,80
+2008,3,England,55 to 59,Any,24,70
+2008,3,England,60 to 64,Any,16,46
+2008,2,England,16 to 19,Any,25,43
+2008,2,England,20 to 24,Any,37,66
+2008,2,England,25 to 29,Any,38,80
+2008,2,England,30 to 34,Any,32,80
+2008,2,England,35 to 39,Any,29,81
+2008,2,England,40 to 44,Any,27,82
+2008,2,England,45 to 49,Any,25,83
+2008,2,England,50 to 54,Any,29,80
+2008,2,England,55 to 59,Any,22,71
+2008,2,England,60 to 64,Any,15,46
+2008,1,England,16 to 19,Any,20,44
+2008,1,England,20 to 24,Any,34,66
+2008,1,England,25 to 29,Any,35,80
+2008,1,England,30 to 34,Any,34,80
+2008,1,England,35 to 39,Any,25,80
+2008,1,England,40 to 44,Any,32,83
+2008,1,England,45 to 49,Any,27,83
+2008,1,England,50 to 54,Any,30,81
+2008,1,England,55 to 59,Any,21,70
+2008,1,England,60 to 64,Any,15,46
+2009,4,England,16 to 19,Any,20,37
+2009,4,England,20 to 24,Any,30,63
+2009,4,England,25 to 29,Any,36,77
+2009,4,England,30 to 34,Any,30,79
+2009,4,England,35 to 39,Any,24,79
+2009,4,England,40 to 44,Any,33,82
+2009,4,England,45 to 49,Any,29,82
+2009,4,England,50 to 54,Any,29,80
+2009,4,England,55 to 59,Any,29,71
+2009,4,England,60 to 64,Any,14,45
+2009,3,England,16 to 19,Any,23,39
+2009,3,England,20 to 24,Any,30,64
+2009,3,England,25 to 29,Any,32,77
+2009,3,England,30 to 34,Any,33,78
+2009,3,England,35 to 39,Any,32,80
+2009,3,England,40 to 44,Any,30,81
+2009,3,England,45 to 49,Any,28,82
+2009,3,England,50 to 54,Any,25,79
+2009,3,England,55 to 59,Any,24,70
+2009,3,England,60 to 64,Any,15,45
+2009,2,England,16 to 19,Any,18,37
+2009,2,England,20 to 24,Any,35,62
+2009,2,England,25 to 29,Any,30,76
+2009,2,England,30 to 34,Any,25,78
+2009,2,England,35 to 39,Any,21,80
+2009,2,England,40 to 44,Any,30,81
+2009,2,England,45 to 49,Any,31,82
+2009,2,England,50 to 54,Any,29,79
+2009,2,England,55 to 59,Any,24,71
+2009,2,England,60 to 64,Any,17,45
+2009,1,England,16 to 19,Any,20,40
+2009,1,England,20 to 24,Any,37,63
+2009,1,England,25 to 29,Any,34,78
+2009,1,England,30 to 34,Any,29,79
+2009,1,England,35 to 39,Any,32,80
+2009,1,England,40 to 44,Any,29,82
+2009,1,England,45 to 49,Any,30,82
+2009,1,England,50 to 54,Any,30,80
+2009,1,England,55 to 59,Any,22,71
+2009,1,England,60 to 64,Any,19,46
+2010,4,England,16 to 19,Any,19,35
+2010,4,England,20 to 24,Any,27,63
+2010,4,England,25 to 29,Any,36,78
+2010,4,England,30 to 34,Any,33,80
+2010,4,England,35 to 39,Any,32,79
+2010,4,England,40 to 44,Any,31,81
+2010,4,England,45 to 49,Any,38,82
+2010,4,England,50 to 54,Any,28,79
+2010,4,England,55 to 59,Any,23,71
+2010,4,England,60 to 64,Any,12,45
+2010,3,England,16 to 19,Any,20,37
+2010,3,England,20 to 24,Any,33,66
+2010,3,England,25 to 29,Any,34,77
+2010,3,England,30 to 34,Any,33,79
+2010,3,England,35 to 39,Any,31,78
+2010,3,England,40 to 44,Any,35,81
+2010,3,England,45 to 49,Any,35,83
+2010,3,England,50 to 54,Any,30,80
+2010,3,England,55 to 59,Any,27,71
+2010,3,England,60 to 64,Any,11,45
+2010,2,England,16 to 19,Any,20,35
+2010,2,England,20 to 24,Any,31,61
+2010,2,England,25 to 29,Any,36,77
+2010,2,England,30 to 34,Any,35,79
+2010,2,England,35 to 39,Any,27,79
+2010,2,England,40 to 44,Any,36,81
+2010,2,England,45 to 49,Any,34,82
+2010,2,England,50 to 54,Any,32,80
+2010,2,England,55 to 59,Any,26,71
+2010,2,England,60 to 64,Any,14,44
+2010,1,England,16 to 19,Any,20,35
+2010,1,England,20 to 24,Any,31,60
+2010,1,England,25 to 29,Any,38,76
+2010,1,England,30 to 34,Any,36,78
+2010,1,England,35 to 39,Any,29,79
+2010,1,England,40 to 44,Any,35,81
+2010,1,England,45 to 49,Any,32,82
+2010,1,England,50 to 54,Any,30,79
+2010,1,England,55 to 59,Any,31,72
+2010,1,England,60 to 64,Any,11,45
+2011,4,England,16 to 19,Any,17,34
+2011,4,England,20 to 24,Any,30,62
+2011,4,England,25 to 29,Any,32,76
+2011,4,England,30 to 34,Any,35,79
+2011,4,England,35 to 39,Any,32,80
+2011,4,England,40 to 44,Any,32,82
+2011,4,England,45 to 49,Any,37,82
+2011,4,England,50 to 54,Any,34,80
+2011,4,England,55 to 59,Any,25,702
+2011,4,England,60 to 64,Any,18,43
+2011,3,England,16 to 19,Any,17,34
+2011,3,England,20 to 24,Any,26,63
+2011,3,England,25 to 29,Any,32,76
+2011,3,England,30 to 34,Any,33,786
+2011,3,England,35 to 39,Any,31,79
+2011,3,England,40 to 44,Any,32,82
+2011,3,England,45 to 49,Any,37,81
+2011,3,England,50 to 54,Any,31,80
+2011,3,England,55 to 59,Any,25,69
+2011,3,England,60 to 64,Any,16,44
+2011,2,England,16 to 19,Any,16,33
+2011,2,England,20 to 24,Any,28,62
+2011,2,England,25 to 29,Any,32,77
+2011,2,England,30 to 34,Any,29,79
+2011,2,England,35 to 39,Any,30,79
+2011,2,England,40 to 44,Any,30,81
+2011,2,England,45 to 49,Any,34,82
+2011,2,England,50 to 54,Any,29,79
+2011,2,England,55 to 59,Any,25,70
+2011,2,England,60 to 64,Any,14,45
+2011,1,England,16 to 19,Any,17,33
+2011,1,England,20 to 24,Any,31,61
+2011,1,England,25 to 29,Any,34,78
+2011,1,England,30 to 34,Any,34,79
+2011,1,England,35 to 39,Any,30,80
+2011,1,England,40 to 44,Any,31,81
+2011,1,England,45 to 49,Any,34,82
+2011,1,England,50 to 54,Any,29,79
+2011,1,England,55 to 59,Any,22,70
+2011,1,England,60 to 64,Any,13,45
+2012,4,England,16 to 19,Any,20,35
+2012,4,England,20 to 24,Any,36,63
+2012,4,England,25 to 29,Any,39,77
+2012,4,England,30 to 34,Any,39,80
+2012,4,England,35 to 39,Any,43,81
+2012,4,England,40 to 44,Any,38,82
+2012,4,England,45 to 49,Any,33,83
+2012,4,England,50 to 54,Any,33,81
+2012,4,England,55 to 59,Any,31,72
+2012,4,England,60 to 64,Any,16,46
+2012,3,England,16 to 19,Any,19,36
+2012,3,England,20 to 24,Any,31,64
+2012,3,England,25 to 29,Any,38,76
+2012,3,England,30 to 34,Any,37,80
+2012,3,England,35 to 39,Any,41,81
+2012,3,England,40 to 44,Any,37,82
+2012,3,England,45 to 49,Any,36,82
+2012,3,England,50 to 54,Any,34,80
+2012,3,England,55 to 59,Any,29,71
+2012,3,England,60 to 64,Any,15,46
+2012,2,England,16 to 19,Any,19,33
+2012,2,England,20 to 24,Any,30,61
+2012,2,England,25 to 29,Any,38,76
+2012,2,England,30 to 34,Any,35,79
+2012,2,England,35 to 39,Any,36,80
+2012,2,England,40 to 44,Any,36,82
+2012,2,England,45 to 49,Any,35,82
+2012,2,England,50 to 54,Any,30,80
+2012,2,England,55 to 59,Any,28,71
+2012,2,England,60 to 64,Any,17,45
+2012,1,England,16 to 19,Any,18,33
+2012,1,England,20 to 24,Any,25,60
+2012,1,England,25 to 29,Any,34,76
+2012,1,England,30 to 34,Any,34,79
+2012,1,England,35 to 39,Any,38,80
+2012,1,England,40 to 44,Any,33,82
+2012,1,England,45 to 49,Any,35,82
+2012,1,England,50 to 54,Any,33,80
+2012,1,England,55 to 59,Any,25,70
+2012,1,England,60 to 64,Any,14,44
+2013,4,England,16 to 19,Any,15,33
+2013,4,England,20 to 24,Any,34,64
+2013,4,England,25 to 29,Any,39,78
+2013,4,England,30 to 34,Any,51,81
+2013,4,England,35 to 39,Any,44,82
+2013,4,England,40 to 44,Any,39,82
+2013,4,England,45 to 49,Any,36,82
+2013,4,England,50 to 54,Any,37,81
+2013,4,England,55 to 59,Any,33,73
+2013,4,England,60 to 64,Any,18,47
+2013,3,England,16 to 19,Any,14,34
+2013,3,England,20 to 24,Any,34,64
+2013,3,England,25 to 29,Any,34,77
+2013,3,England,30 to 34,Any,48,81
+2013,3,England,35 to 39,Any,45,81
+2013,3,England,40 to 44,Any,41,81
+2013,3,England,45 to 49,Any,37,82
+2013,3,England,50 to 54,Any,36,80
+2013,3,England,55 to 59,Any,33,73
+2013,3,England,60 to 64,Any,18,47
+2013,2,England,16 to 19,Any,14,31
+2013,2,England,20 to 24,Any,33,60
+2013,2,England,25 to 29,Any,31,77
+2013,2,England,30 to 34,Any,46,81
+2013,2,England,35 to 39,Any,41,81
+2013,2,England,40 to 44,Any,41,81
+2013,2,England,45 to 49,Any,34,82
+2013,2,England,50 to 54,Any,36,81
+2013,2,England,55 to 59,Any,29,73
+2013,2,England,60 to 64,Any,16,46
+2013,1,England,16 to 19,Any,16,32
+2013,1,England,20 to 24,Any,35,61
+2013,1,England,25 to 29,Any,38,77
+2013,1,England,30 to 34,Any,34,80
+2013,1,England,35 to 39,Any,43,81
+2013,1,England,40 to 44,Any,39,81
+2013,1,England,45 to 49,Any,32,82
+2013,1,England,50 to 54,Any,35,81
+2013,1,England,55 to 59,Any,30,72
+2013,1,England,60 to 64,Any,14,46
+2014,1,England,16 to 19,Any,15,32
+2014,1,England,20 to 24,Any,34,63
+2014,1,England,25 to 29,Any,40,79
+2014,1,England,30 to 34,Any,47,81
+2014,1,England,35 to 39,Any,43,81
+2014,1,England,40 to 44,Any,43,83
+2014,1,England,45 to 49,Any,44,83
+2014,1,England,50 to 54,Any,34,81
+2014,1,England,55 to 59,Any,29,72
+2014,1,England,60 to 64,Any,18,48
+2006,4,England,All,Any,26,73
+2006,3,England,All,Any,28,73
+2007,4,England,All,Any,27,73
+2007,3,England,All,Any,27,73
+2007,2,England,All,Any,26,72
+2007,1,England,All,Any,26,72
+2008,4,England,All,Any,27,72
+2008,3,England,All,Any,28,72
+2008,2,England,All,Any,27,72
+2008,1,England,All,Any,28,73
+2009,4,England,All,Any,28,71
+2009,3,England,All,Any,27,71
+2009,2,England,All,Any,27,70
+2009,1,England,All,Any,28,71
+2010,4,England,All,Any,28,71
+2010,3,England,All,Any,29,71
+2010,2,England,All,Any,29,70
+2010,1,England,All,Any,30,70
+2011,4,England,All,Any,30,70
+2011,3,England,All,Any,29,70
+2011,2,England,All,Any,27,70
+2011,1,England,All,Any,28,70
+2012,4,England,All,Any,33,72
+2012,3,England,All,Any,32,71
+2012,2,England,All,Any,31,71
+2012,1,England,All,Any,29,70
+2013,4,England,All,Any,35,72
+2013,3,England,All,Any,35,72
+2013,2,England,All,Any,33,71
+2013,1,England,All,Any,32,71
+2014,1,England,All,Any,36,72
+2007,4,England,All,Female,26,67
+2007,4,England,All,Male,28,79
+2007,3,England,All,Female,27,66
+2007,3,England,All,Male,27,79
+2007,2,England,All,Female,27,66
+2007,2,England,All,Male,26,78
+2007,1,England,All,Female,26,66
+2007,1,England,All,Male,27,78
+2008,4,England,All,Female,27,66
+2008,4,England,All,Male,28,78
+2008,3,England,All,Female,28,66
+2008,3,England,All,Male,28,79
+2008,2,England,All,Female,27,66
+2008,2,England,All,Male,27,78
+2008,1,England,All,Female,25,66
+2008,1,England,All,Male,28,79
+2009,4,England,All,Female,28,66
+2009,4,England,All,Male,27,76
+2009,3,England,All,Female,26,66
+2009,3,England,All,Male,26,76
+2009,2,England,All,Female,28,65
+2009,2,England,All,Male,27,76
+2009,1,England,All,Female,28,66
+2009,1,England,All,Male,29,77
+2010,4,England,All,Female,30,65
+2010,4,England,All,Male,26,65
+2010,3,England,All,Female,30,65
+2010,3,England,All,Male,28,77
+2010,2,England,All,Female,30,65
+2010,2,England,All,Male,28,75
+2010,1,England,All,Female,30,65
+2010,1,England,All,Male,28,75
+2011,4,England,All,Female,29,65
+2011,4,England,All,Male,27,75
+2011,3,England,All,Female,31,65
+2011,3,England,All,Male,26,76
+2011,2,England,All,Female,29,65
+2011,2,England,All,Male,25,75
+2011,1,England,All,Female,30,65
+2011,1,England,All,Male,25,75
+2012,4,England,All,Female,34,66
+2012,4,England,All,Male,32,77
+2012,3,England,All,Female,32,66
+2012,3,England,All,Male,32,77
+2012,2,England,All,Female,31,65
+2012,2,England,All,Male,31,76
+2012,1,England,All,Female,31,65
+2012,1,England,All,Male,27,75
+2013,4,England,All,Female,37,67
+2013,4,England,All,Male,33,77
+2013,3,England,All,Female,35,66
+2013,3,England,All,Male,34,77
+2013,2,England,All,Female,34,66
+2013,2,England,All,Male,31,76
+2013,1,England,All,Female,34,66
+2013,1,England,All,Male,29,76
+2014,1,England,All,Female,37,67
+2014,1,England,All,Male,34,77
+2006,4,East Midlands ,All,Any,30,74
+2006,4,Eastern ,All,Any,30,75
+2006,4,London ,All,Any,25,68
+2006,4,Merseyside ,All,Any,13,68
+2006,4,North East ,All,Any,18,69
+2006,4,North West ,All,Any,20,72
+2006,4,South East ,All,Any,36,77
+2006,4,South West ,All,Any,33,76
+2006,4,West Midlands ,All,Any,23,71
+2006,4,Yorkshire & Humberside ,All,Any,23,72
+2006,3,East Midlands ,All,Any,29,75
+2006,3,Eastern ,All,Any,31,75
+2006,3,London ,All,Any,25,68
+2006,3,Merseyside ,All,Any,13,66
+2006,3,North East ,All,Any,25,69
+2006,3,North West ,All,Any,22,73
+2006,3,South East ,All,Any,38,77
+2006,3,South West ,All,Any,34,76
+2006,3,West Midlands ,All,Any,26,72
+2006,3,Yorkshire & Humberside ,All,Any,26,71
+2007,4,East Midlands ,All,Any,28,73
+2007,4,Eastern ,All,Any,30,76
+2007,4,London ,All,Any,21,69
+2007,4,Merseyside ,All,Any,16,65
+2007,4,North East ,All,Any,18,69
+2007,4,North West ,All,Any,24,72
+2007,4,South East ,All,Any,41,77
+2007,4,South West ,All,Any,31,77
+2007,4,West Midlands ,All,Any,22,71
+2007,4,Yorkshire & Humberside ,All,Any,23,72
+2007,3,East Midlands ,All,Any,27,74
+2007,3,Eastern ,All,Any,31,75
+2007,3,London ,All,Any,20,69
+2007,3,Merseyside ,All,Any,19,63
+2007,3,North East ,All,Any,21,70
+2007,3,North West ,All,Any,24,72
+2007,3,South East ,All,Any,42,77
+2007,3,South West ,All,Any,30,76
+2007,3,West Midlands ,All,Any,23,71
+2007,3,Yorkshire & Humberside ,All,Any,24,71
+2007,2,East Midlands ,All,Any,26,73
+2007,2,Eastern ,All,Any,31,75
+2007,2,London ,All,Any,21,68
+2007,2,Merseyside ,All,Any,9,66
+2007,2,North East ,All,Any,18,69
+2007,2,North West ,All,Any,20,71
+2007,2,South East ,All,Any,38,76
+2007,2,South West ,All,Any,35,75
+2007,2,West Midlands ,All,Any,26,70
+2007,2,Yorkshire & Humberside ,All,Any,21,70
+2007,1,East Midlands ,All,Any,27,73
+2007,1,Eastern ,All,Any,33,75
+2007,1,London ,All,Any,24,69
+2007,1,Merseyside ,All,Any,18,67
+2007,1,North East ,All,Any,15,68
+2007,1,North West ,All,Any,20,71
+2007,1,South East ,All,Any,34,76
+2007,1,South West ,All,Any,35,75
+2007,1,West Midlands ,All,Any,26,70
+2007,1,Yorkshire & Humberside ,All,Any,21,70
+2008,4,East Midlands ,All,Any,33,74
+2008,4,Eastern ,All,Any,31,75
+2008,4,London ,All,Any,23,70
+2008,4,Merseyside ,All,Any,19,64
+2008,4,North East ,All,Any,19,68
+2008,4,North West ,All,Any,23,70
+2008,4,South East ,All,Any,34,76
+2008,4,South West ,All,Any,32,76
+2008,4,West Midlands ,All,Any,24,70
+2008,4,Yorkshire & Humberside ,All,Any,27,70
+2008,3,East Midlands ,All,Any,32,74
+2008,3,Eastern ,All,Any,32,75
+2008,3,London ,All,Any,20,70
+2008,3,Merseyside ,All,Any,16,64
+2008,3,North East ,All,Any,22,68
+2008,3,North West ,All,Any,22,71
+2008,3,South East ,All,Any,36,77
+2008,3,South West ,All,Any,36,76
+2008,3,West Midlands ,All,Any,25,70
+2008,3,Yorkshire & Humberside ,All,Any,27,71
+2008,2,East Midlands ,All,Any,30,72
+2008,2,Eastern ,All,Any,30,75
+2008,2,London ,All,Any,18,70
+2008,2,Merseyside ,All,Any,17,64
+2008,2,North East ,All,Any,19,68
+2008,2,North West ,All,Any,22,71
+2008,2,South East ,All,Any,40,77
+2008,2,South West ,All,Any,33,76
+2008,2,West Midlands ,All,Any,27,70
+2008,2,Yorkshire & Humberside ,All,Any,27,71
+2008,1,East Midlands ,All,Any,32,73
+2008,1,Eastern ,All,Any,30,75
+2008,1,London ,All,Any,22,70
+2008,1,Merseyside ,All,Any,14,63
+2008,1,North East ,All,Any,19,68
+2008,1,North West ,All,Any,24,71
+2008,1,South East ,All,Any,41,77
+2008,1,South West ,All,Any,32,76
+2008,1,West Midlands ,All,Any,25,71
+2008,1,Yorkshire & Humberside ,All,Any,24,71
+2009,4,East Midlands ,All,Any,32,72
+2009,4,Eastern ,All,Any,31,74
+2009,4,London ,All,Any,27,68
+2009,4,Merseyside ,All,Any,18,64
+2009,4,North East ,All,Any,25,67
+2009,4,North West ,All,Any,22,69
+2009,4,South East ,All,Any,37,75
+2009,4,South West ,All,Any,28,73
+2009,4,West Midlands ,All,Any,26,69
+2009,4,Yorkshire & Humberside ,All,Any,25,69
+2009,3,East Midlands ,All,Any,29,73
+2009,3,Eastern ,All,Any,33,75
+2009,3,London ,All,Any,23,68
+2009,3,Merseyside ,All,Any,14,65
+2009,3,North East ,All,Any,22,66
+2009,3,North West ,All,Any,22,69
+2009,3,South East ,All,Any,34,75
+2009,3,South West ,All,Any,33,73
+2009,3,West Midlands ,All,Any,29,68
+2009,3,Yorkshire & Humberside ,All,Any,24,69
+2009,2,East Midlands ,All,Any,27,72
+2009,2,Eastern ,All,Any,32,74
+2009,2,London ,All,Any,22,67
+2009,2,Merseyside ,All,Any,16,66
+2009,2,North East ,All,Any,24,64
+2009,2,North West ,All,Any,23,69
+2009,2,South East ,All,Any,37,75
+2009,2,South West ,All,Any,30,74
+2009,2,West Midlands ,All,Any,28,68
+2009,2,Yorkshire & Humberside ,All,Any,26,68
+2009,1,East Midlands ,All,Any,32,72
+2009,1,Eastern ,All,Any,33,75
+2009,1,London ,All,Any,23,69
+2009,1,Merseyside ,All,Any,17,65
+2009,1,North East ,All,Any,24,67
+2009,1,North West ,All,Any,22,70
+2009,1,South East ,All,Any,34,75
+2009,1,South West ,All,Any,35,75
+2009,1,West Midlands ,All,Any,27,68
+2009,1,Yorkshire & Humberside ,All,Any,29,69
+2010,4,East Midlands ,All,Any,31,71
+2010,4,Eastern ,All,Any,33,74
+2010,4,London ,All,Any,30,68
+2010,4,Merseyside ,All,Any,18,64
+2010,4,North East ,All,Any,20,65
+2010,4,North West ,All,Any,25,70
+2010,4,South East ,All,Any,37,75
+2010,4,South West ,All,Any,28,74
+2010,4,West Midlands ,All,Any,25,68
+2010,4,Yorkshire & Humberside ,All,Any,24,68
+2010,3,East Midlands ,All,Any,31,71
+2010,3,Eastern ,All,Any,30,74
+2010,3,London ,All,Any,29,69
+2010,3,Merseyside ,All,Any,22,64
+2010,3,North East ,All,Any,22,68
+2010,3,North West ,All,Any,26,70
+2010,3,South East ,All,Any,38,75
+2010,3,South West ,All,Any,29,74
+2010,3,West Midlands ,All,Any,28,69
+2010,3,Yorkshire & Humberside ,All,Any,26,68
+2010,2,East Midlands ,All,Any,28,70
+2010,2,Eastern ,All,Any,33,73
+2010,2,London ,All,Any,29,68
+2010,2,Merseyside ,All,Any,19,64
+2010,2,North East ,All,Any,23,67
+2010,2,North West ,All,Any,26,70
+2010,2,South East ,All,Any,39,74
+2010,2,South West ,All,Any,30,73
+2010,2,West Midlands ,All,Any,26,69
+2010,2,Yorkshire & Humberside ,All,Any,28,69
+2010,1,East Midlands ,All,Any,31,70
+2010,1,Eastern ,All,Any,31,73
+2010,1,London ,All,Any,30,67
+2010,1,Merseyside ,All,Any,21,64
+2010,1,North East ,All,Any,25,66
+2010,1,North West ,All,Any,24,69
+2010,1,South East ,All,Any,41,74
+2010,1,South West ,All,Any,30,72
+2010,1,West Midlands ,All,Any,26,68
+2010,1,Yorkshire & Humberside ,All,Any,29,68
+2011,4,East Midlands ,All,Any,33,71
+2011,4,Eastern ,All,Any,40,74
+2011,4,London ,All,Any,24,67
+2011,4,Merseyside ,All,Any,21,64
+2011,4,North East ,All,Any,21,66
+2011,4,North West ,All,Any,22,70
+2011,4,South East ,All,Any,37,74
+2011,4,South West ,All,Any,35,74
+2011,4,West Midlands ,All,Any,28,68
+2011,4,Yorkshire & Humberside ,All,Any,27,68
+2011,3,East Midlands ,All,Any,34,72
+2011,3,Eastern ,All,Any,35,74
+2011,3,London ,All,Any,24,67
+2011,3,Merseyside ,All,Any,23,66
+2011,3,North East ,All,Any,19,65
+2011,3,North West ,All,Any,25,69
+2011,3,South East ,All,Any,36,74
+2011,3,South West ,All,Any,34,74
+2011,3,West Midlands ,All,Any,26,68
+2011,3,Yorkshire & Humberside ,All,Any,23,68
+2011,2,East Midlands ,All,Any,35,71
+2011,2,Eastern ,All,Any,37,74
+2011,2,London ,All,Any,23,68
+2011,2,Merseyside ,All,Any,19,66
+2011,2,North East ,All,Any,19,66
+2011,2,North West ,All,Any,23,69
+2011,2,South East ,All,Any,33,74
+2011,2,South West ,All,Any,28,72
+2011,2,West Midlands ,All,Any,23,67
+2011,2,Yorkshire & Humberside ,All,Any,24,68
+2011,1,East Midlands ,All,Any,35,71
+2011,1,Eastern ,All,Any,36,74
+2011,1,London ,All,Any,25,68
+2011,1,Merseyside ,All,Any,17,65
+2011,1,North East ,All,Any,19,65
+2011,1,North West ,All,Any,24,68
+2011,1,South East ,All,Any,35,75
+2011,1,South West ,All,Any,31,73
+2011,1,West Midlands ,All,Any,19,67
+2011,1,Yorkshire & Humberside ,All,Any,26,68
+2012,4,East Midlands,All,Any,32,71
+2012,4,Eastern,All,Any,39,75
+2012,4,London,All,Any,30,70
+2012,4,Merseyside,All,Any,24,69
+2012,4,North East,All,Any,25,68
+2012,4,North West,All,Any,24,70
+2012,4,South East,All,Any,42,75
+2012,4,South West,All,Any,37,75
+2012,4,West Midlands,All,Any,33,71
+2012,4,Yorkshire & Humberside,All,Any,32,70
+2012,3,East Midlands ,All,Any,28,71
+2012,3,Eastern ,All,Any,41,74
+2012,3,London ,All,Any,29,69
+2012,3,Merseyside ,All,Any,16,66
+2012,3,North East ,All,Any,24,68
+2012,3,North West ,All,Any,29,70
+2012,3,South East ,All,Any,42,74
+2012,3,South West ,All,Any,35,75
+2012,3,West Midlands ,All,Any,31,70
+2012,3,Yorkshire & Humberside ,All,Any,31,70
+2012,2,East Midlands ,All,Any,26,71
+2012,2,Eastern ,All,Any,44,74
+2012,2,London ,All,Any,27,68
+2012,2,Merseyside ,All,Any,14,67
+2012,2,North East ,All,Any,22,66
+2012,2,North West ,All,Any,28,70
+2012,2,South East ,All,Any,38,74
+2012,2,South West ,All,Any,34,73
+2012,2,West Midlands ,All,Any,28,68
+2012,2,Yorkshire & Humberside ,All,Any,30,69
+2012,1,East Midlands ,All,Any,29,71
+2012,1,Eastern ,All,Any,41,74
+2012,1,London ,All,Any,21,67
+2012,1,Merseyside ,All,Any,16,64
+2012,1,North East ,All,Any,23,66
+2012,1,North West ,All,Any,24,68
+2012,1,South East ,All,Any,40,74
+2012,1,South West ,All,Any,29,72
+2012,1,West Midlands ,All,Any,26,68
+2012,1,Yorkshire & Humberside ,All,Any,28,68
+2013,4,East Midlands,All,Any,38,72
+2013,4,Eastern,All,Any,39,75
+2013,4,London,All,Any,31,71
+2013,4,Merseyside,All,Any,21,66
+2013,4,North East,All,Any,33,67
+2013,4,North West,All,Any,29,69
+2013,4,South East,All,Any,45,76
+2013,4,South West,All,Any,39,75
+2013,4,West Midlands,All,Any,31,69
+2013,4,Yorkshire & Humberside,All,Any,34,71
+2013,3,East Midlands,All,Any,36,73
+2013,3,Eastern,All,Any,41,75
+2013,3,London,All,Any,30,70
+2013,3,Merseyside,All,Any,21,65
+2013,3,North East,All,Any,29,68
+2013,3,North West,All,Any,29,69
+2013,3,South East,All,Any,43,65
+2013,3,South West,All,Any,40,75
+2013,3,West Midlands,All,Any,31,68
+2013,3,Yorkshire & Humberside,All,Any,34,71
+2013,2,East Midlands,All,Any,32,70
+2013,2,Eastern,All,Any,40,75
+2013,2,London,All,Any,28,69
+2013,2,Merseyside,All,Any,22,69
+2013,2,North East,All,Any,29,66
+2013,2,North West,All,Any,28,69
+2013,2,South East,All,Any,40,75
+2013,2,South West,All,Any,34,73
+2013,2,West Midlands,All,Any,32,68
+2013,2,Yorkshire & Humberside,All,Any,3,70
+2013,1,East Midlands,All,Any,33,70
+2013,1,Eastern,All,Any,38,74
+2013,1,London,All,Any,29,70
+2013,1,Merseyside,All,Any,25,68
+2013,1,North East,All,Any,27,66
+2013,1,North West,All,Any,24,68
+2013,1,South East,All,Any,39,74
+2013,1,South West,All,Any,37,74
+2013,1,West Midlands,All,Any,31,69
+2013,1,Yorkshire & Humberside,All,Any,31,70
+2014,1,East Midlands,All,Any,36,72
+2014,1,Eastern,All,Any,39,76
+2014,1,London,All,Any,32,71
+2014,1,Merseyside,All,Any,17,68
+2014,1,North East,All,Any,33,68
+2014,1,North West,All,Any,28,68
+2014,1,South East,All,Any,44,75
+2014,1,South West,All,Any,43,75
+2014,1,West Midlands,All,Any,33,70
+2014,1,Yorkshire & Humberside,All,Any,36,71

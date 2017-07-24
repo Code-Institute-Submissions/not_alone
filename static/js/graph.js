@@ -5,13 +5,13 @@ queue()
 function makeGraphs(error, projectsJson) {
 
    //Clean projectsJson data
-   var mhEmploymentMortality = projectsJson;
+/* var mhEmploymentMortality = projectsJson;
    var dateFormat = d3.time.format("%Y-%m-%d %H:%M:%S");
    mhEmploymentMortality.forEach(function (d) {
        d["Year"] = dateFormat.parse(d["Year"]);
        d["Year"].setDate(1);
        d["mhEmployment-nd"] = +d["mhEmployment-nd"];
-   });
+   }); */
 
 
    //Create a Crossfilter instance

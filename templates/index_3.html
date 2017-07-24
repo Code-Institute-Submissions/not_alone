@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>I Am Not Alone</title>
+  <link rel="stylesheet" href="{{ url_for ('static',
+    filename='lib/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{ url_for ('static',
+    filename='lib/css/keen-dashboards.css')}}">
+  <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css')}}">
+  <link rel="stylesheet" href="{{ url_for ('static', filename='css/custom.css')}}">
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+
+  <style type="text/css">
+        body {
+            padding-top: 70px;
+            padding-left: 70px;
+            background-image: url("images/crowd.jpg");
+            background-repeat: repeat-y;
+            background-attachment: fixed;
+            display: block;
+        }
+  </style>
+</head>
+<body class="application">
+
+ <nav id="text" class="navbar navbar-default navbar-fixed-top">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#myCollapsingList">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+
+        <nav class="container">
+            <header class="navbar-header">
+                <a class="navbar-brand" href=".">I.A.N.A.</a>
+            </header>
+            <ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
+                <li><a href=".">Home</a></li>
+                <li><a href="{{ url_for('realStories') }}">Real Stories</a></li>
+                <li><a href="{{ url_for('charts') }}">Charts</a></li>
+            </ul>
+        </nav>
+    </nav>
+
+ <article>
+	<h1 id="text2"><strong>I Am Not Alone<strong></h1>
+
+	<h3 id="text2"><i>Welcome home</i></h3>
+
+	<p id="text"><br>We beleive in open, honest, and often inspiring<br>communication around all aspects of mental health.<br><br>
+	Come join the conversation, or feel free to head straight over<br>to our charts section to soak up some data.</p><br>
+
+	<div><img id="brain" src="/images/cog_brain.jpg"></div>
+
+</article>
+
+  <hr>
+  <p class="small text-muted"> Data by Miller &#9829; from I Am Not Alone</p>
+  <script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/d3.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/dc.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
+  <script src="{{ url_for ('static', filename='js/graph_2.js')}}"></script>
+</body>
+</html>
