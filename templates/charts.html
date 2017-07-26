@@ -31,15 +31,16 @@
             </ul>
         </nav>
     </nav>
+
   <div  id="outer" class="container-fluid">
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-sm-12">
         <div class="row">
           <!-- Year Chart - complete -->
-          <div class="col-sm-12">
+          <div class="col-sm-8">
             <div class="chart-wrapper">
-              <div class="chart-title">
-                Year chart
+              <div id="titles" class="chart-title">
+                Employment rates
               </div>
               <div class="chart-stage">
                 <div id="Year-chart"></div>
@@ -48,11 +49,39 @@
           </div>
           <!-- Year Chart - complete -->
 
+
+           <!-- pie chart 1 -->
+          <div class="col-sm-4">
+            <div class="chart-wrapper">
+              <div id="titles" class="chart-title">
+                Region
+              </div>
+              <div class="chart-stage">
+                <div id="region-pie-chart"></div>
+              </div>
+            </div>
+          </div>
+           <!-- Pie Chart 1 -->
+
+           <!-- pie chart 2 -->
+          <div class="col-sm-4">
+            <div class="chart-wrapper">
+              <div id="titles" class="chart-title">
+                Age
+              </div>
+              <div class="chart-stage">
+                <div id="age-pie-chart"></div>
+              </div>
+            </div>
+          </div>
+           <!-- Pie Chart 2 -->
+
+
           <!-- mhEmployment - complete -->
           <div class="col-sm-6">
             <div class="chart-wrapper">
-              <div class="chart-title">
-                Employment rate of people with mental illness
+              <div id="titles" class="chart-title">
+                Employment rate of people with mental illness (in %)
               </div>
               <div class="chart-stage">
                 <div id="mhEmployed-row-chart"></div>
@@ -64,8 +93,8 @@
           <!-- popEmployment - brand new chart -->
           <div class="col-sm-6">
             <div class="chart-wrapper">
-              <div class="chart-title">
-                Employment rate of general population
+              <div id="titles" class="chart-title">
+                Employment rate of general population (in %)
               </div>
               <div class="chart-stage">
                 <div id="popEmployed-row-chart"></div>
@@ -74,18 +103,8 @@
           </div>
           <!-- popEmployment - brand new chart-->
 
-          <!-- pie chart - leave for conditions - Now going to experiment with region
-          <div class="col-sm-6">
-            <div class="chart-wrapper">
-              <div class="chart-title">
-                Region
-              </div>
-              <div class="chart-stage">
-                <div id="mhEmployment"></div>
-              </div>
-            </div>
-          </div>
-           Miller -->
+
+
         </div>
       </div>
 
@@ -149,8 +168,6 @@
        Miller -->
     </div>
   </div>
-  <hr>
-  <p class="small text-muted"> Data by Miller &#9829; from I Am Not Alone</p>
   <script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>

@@ -11,9 +11,20 @@
   <link rel="stylesheet" href="{{ url_for ('static', filename='css/custom.css')}}">
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+  <style type="text/css">
+        body {
+            padding-top: 70px;
+            padding-left: 70px;
+            background-image: url("{{ url_for ('static', filename='images/crowd.jpg') }}");
+            background-repeat: repeat-y;
+            background-attachment: fixed;
+            display: block;
+        }
+  </style>
 </head>
 
-<body class="application">
+<body background="href="/static/images/crowd.jpg"">
+
  <nav id="text" class="navbar navbar-default navbar-fixed-top">
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#myCollapsingList">
     <span class="icon-bar"></span>
@@ -102,6 +113,7 @@ I’ve chosen to put this one last, not because of its unimportance, but quite t
 <br><br>J.
 
 </div>
+
 
 <div class="scrollbox" id="text">
 
@@ -316,8 +328,6 @@ wants to talk.
 
  <!-- Real Stories Page -->
 
- <hr>
-  <p class="small text-muted"> Data by Miller &#9829; from I Am Not Alone</p>
   <script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>

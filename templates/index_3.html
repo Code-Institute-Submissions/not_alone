@@ -15,14 +15,15 @@
         body {
             padding-top: 70px;
             padding-left: 70px;
-            background-image: url("images/crowd.jpg");
+            background-image: url("{{ url_for ('static', filename='images/crowd.jpg') }}");
             background-repeat: repeat-y;
             background-attachment: fixed;
             display: block;
         }
   </style>
 </head>
-<body class="application">
+
+<body background="href="/static/images/crowd.jpg"">
 
  <nav id="text" class="navbar navbar-default navbar-fixed-top">
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#myCollapsingList">
@@ -51,12 +52,10 @@
 	<p id="text"><br>We beleive in open, honest, and often inspiring<br>communication around all aspects of mental health.<br><br>
 	Come join the conversation, or feel free to head straight over<br>to our charts section to soak up some data.</p><br>
 
-	<div><img id="brain" src="/images/cog_brain.jpg"></div>
+	<div><img id="brain" src="{{ url_for ('static', filename='images/cog_brain.jpg') }}"></div>
 
 </article>
 
-  <hr>
-  <p class="small text-muted"> Data by Miller &#9829; from I Am Not Alone</p>
   <script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>
