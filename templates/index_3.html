@@ -8,6 +8,7 @@
     filename='lib/css/keen-dashboards.css')}}">
   <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css')}}">
   <link rel="stylesheet" href="{{ url_for ('static', filename='css/custom.css')}}">
+  <link rel="stylesheet" href="{{url_for ('static', filename='lib/css/introjs.css')}}" />
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
 
@@ -50,7 +51,7 @@
 	<h3 id="text2"><i>Welcome home</i></h3>
 
 	<p id="text"><br>We beleive in open, honest, and often inspiring<br>communication around all aspects of mental health.<br><br>
-	Come join the conversation, or feel free to head straight over<br>to our charts section to soak up some data.</p><br>
+	Come on in and join the conversation: Read some personal journeys <br>on our Real Stories page, or feel free to head straight over<br>to our Charts section to soak up some data.</p><br>
 
 	<div><img id="brain" src="{{ url_for ('static', filename='images/cog_brain.jpg') }}"></div>
 
@@ -64,5 +65,6 @@
   <script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
   <script src="{{ url_for ('static', filename='js/graph_2.js')}}"></script>
+  <script src="{{url_for ('static', filename='lib/js/intro.js')}}" type="text/javascript"></script>
 </body>
 </html>

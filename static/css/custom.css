@@ -14,11 +14,9 @@
 
 #region-pie-chart {
     font-family: 'Kalam', cursive;
+    stroke: #808080;
 }
 
-#age-pie-chart {
-    font-family: 'Kalam', cursive;
-}
 
 #titles {
     color: #121382;
@@ -40,7 +38,11 @@
    font-family: 'Kalam', cursive;
 }
 
-
+#introButton {
+    background-color: #121382;
+    font-family: 'Kalam', cursive;
+    color: #ffa500;
+}
 
 /* my new css*/
 
@@ -89,6 +91,14 @@
 	display: block;
 	}
 
+#text3
+	{
+	font-family: 'Kalam', cursive;
+	color: #808080;
+	text-align: center;
+	display: block;
+	}
+
 #centered {
   transform: translate(-20%);
 }
@@ -128,7 +138,19 @@
 
 .scrollbox2{
   overflow: auto;
-  width: 600px;
+  width: 700px;
+  height: 210px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.scrollbox3{
+  overflow: auto;
+  width: 400px;
   height: 210px;
   display: block;
   margin-left: auto;
