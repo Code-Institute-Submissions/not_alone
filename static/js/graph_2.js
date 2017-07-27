@@ -109,9 +109,18 @@ function reduceInitialGen() {
        return d["Region"];
    });
 
+   var filterDimension = ndx.dimension(function(d) {return d["Region"];});
+
+       filterDimension.filter(function (d) { return d !== 'England'; });
+
       var ageDim = ndx.dimension(function (d) {
        return d["Age"];
    });
+
+   // var ageFilterDimension = ndx.dimension(function(d) {return d["Age"];});
+   //
+   //     ageFilterDimension.filter(function (d) { return d !== 'All'; });
+
 
    // Groups go here
 
@@ -126,6 +135,13 @@ function reduceInitialGen() {
     var numGender = genderDim.group();   // was YearDim
     var numRegion = regionDim.group();
     var numAge = ageDim.group();
+
+    // var functionRegionGroup = regionDim.group();
+    // var filteredFunctionGroup = {
+    // all: function () {
+    //     return functionRegionGroup.top(Infinity).filter( function (d) { return d["Region"] !== "England"; } );
+    // }
+// };
 
     // var numRegion = YearDim.group().reduce(reduceAdd, reduceRemove, reduceInitial);
     // var numAge = YearDim.group().reduce(reduceAdd, reduceRemove, reduceInitial);
@@ -189,15 +205,17 @@ function reduceInitialGen() {
        .dimension(YearDim) // was YearDim
        // .group(numYear)  // was numYear
        .transitionDuration(500)
-       .x(d3.scale.linear().domain([2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]))        // .x(d3.time.scale().domain([minYear, maxYear]))
+       .x(d3.scale.linear().domain([2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]))      // .x(d3.time.scale().domain([minYear, maxYear]))
        .y(d3.scale.linear().domain([0, 100]))
        .xAxisLabel("Year")
        .elasticX(true)
        .brushOn(false)
+       .title(false)  // fixes 'object bug'
        .yAxisLabel("Employment rate (in %)")
-       .compose([dc.lineChart(YearChart).group(numMhEmployed, "Employment rate of people with mental illness").colors('#2e59cd').valueAccessor(function(k) { return k.value.average }),dc.lineChart(YearChart).group(numPopEmployed, "Employment rate of general population").colors('#ffa500').valueAccessor(function(k) { return k.value.average })])
+       .compose([dc.lineChart(YearChart).group(numPopEmployed, "Employment rate of general population").colors('#2e59cd').valueAccessor(function(k) { return k.value.average }).renderArea(true),dc.lineChart(YearChart).group(numMhEmployed, "Employment rate of people with mental illness").colors('#ff6680').valueAccessor(function(k) { return k.value.average }).renderArea(true)])
        .legend(dc.legend().x(550).y(0).gap(5))
        .yAxis().ticks(48);
+       // .x(tickFormat(d3.format("d")));                                                                                  //#ff6680 works nicely with blue here
 
         MhEmployedChart
        .width(550)
@@ -226,8 +244,8 @@ function reduceInitialGen() {
        .dimension(regionDim)     //was YearDim
       // .group(numGender)
        .group(numRegion)
-       .colors(colorScale)
-       .title(function(d){return d.value;});
+       .colors(colorScale);
+       // .title(function(d){return d.value;});
        // .valueAccessor(function(k) { return k.value.average });
 
         agePieChart
@@ -238,8 +256,8 @@ function reduceInitialGen() {
        .dimension(ageDim)     //was YearDim
       // .group(numGender)
        .group(numAge)
-       .colors(colorScale)
-       .title(function(d){return d.value;});
+       .colors(colorScale);
+       // .title(function(d){return d.value;});
 
         // var x = '2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014';
         // x.replace(',','');
