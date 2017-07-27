@@ -83,14 +83,12 @@ function reduceInitialGen() {
     var minYear = YearDim.bottom(1)[0]["Year"];
     var maxYear = YearDim.top(1)[0]["Year"];
 
-    var YearChart = dc.compositeChart("#Year-chart");  // was #Year-chart
+    var YearChart = dc.compositeChart("#Year-chart");
     var MhEmployedChart = dc.rowChart("#mhEmployed-row-chart");
-    var PopEmployedChart = dc.rowChart("#popEmployed-row-chart");  // manipulate css to be my own
+    var PopEmployedChart = dc.rowChart("#popEmployed-row-chart");
     var regionPieChart = dc.pieChart("#region-pie-chart");
 
     var colorScale = d3.scale.ordinal().range(["#ffc0cb", "#ff6680", "#ff1a40", "#acbdec", "#2e59cd", "#121382", "#0c0e5a", "#ffd280","#ffc14d", "#ffa500", "#b37400"  ]);
-
-    // var xAxis = d3.svg.axis().scale(x).orient("bottom").tickFormat(d3.format("d"));  -- comma experiment - still not working
 
        YearChart
        .width(800)

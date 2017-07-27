@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3304b753-dc8d-459d-9934-f344512cc2e6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clean_employment.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clean_employment2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/conditions.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/employment.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mortality.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/graph 2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/graph.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/graph_3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/index_2.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clean_employment3.csv" afterPath="$PROJECT_DIR$/clean_employment3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/custom.css" afterPath="$PROJECT_DIR$/static/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/graph_2.js" afterPath="$PROJECT_DIR$/static/js/graph_2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/charts.html" afterPath="$PROJECT_DIR$/templates/charts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index_3.html" afterPath="$PROJECT_DIR$/templates/index_3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/real_stories.html" afterPath="$PROJECT_DIR$/templates/real_stories.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +20,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="not_alone.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="not_alone.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/not_alone.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
@@ -87,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graph_2.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="graph_2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/graph_2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="122" column="19" lean-forward="true" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+            <state relative-caret-position="400">
+              <caret line="128" column="19" lean-forward="true" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -140,9 +121,9 @@
         <option value="$PROJECT_DIR$/not_alone.py" />
         <option value="$PROJECT_DIR$/templates/index_3.html" />
         <option value="$PROJECT_DIR$/static/css/custom.css" />
-        <option value="$PROJECT_DIR$/static/js/graph_2.js" />
         <option value="$PROJECT_DIR$/templates/charts.html" />
         <option value="$PROJECT_DIR$/templates/real_stories.html" />
+        <option value="$PROJECT_DIR$/static/js/graph_2.js" />
       </list>
     </option>
   </component>
@@ -880,6 +861,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/not_alone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/charts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -896,27 +895,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/graph_2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="122" column="19" lean-forward="true" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+        <state relative-caret-position="400">
+          <caret line="128" column="19" lean-forward="true" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/not_alone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
