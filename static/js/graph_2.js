@@ -9,6 +9,15 @@ function makeGraphs(error, projectsJson) {
 
     var mhEmployment = projectsJson;
 
+
+//        var dateFormat = d3.time.format("%Y-%m-%d");
+//    mhEmployment.forEach(function (d) {
+//         d["Year"] = dateFormat.parse(d["Year"]+"-1-1");
+//         d["Year"].setDate(1);
+//    });
+// // experimenting with comma bug - remove 13 - 17 after if it doesn't work
+
+
     var ndx = crossfilter(mhEmployment);
 
     // new functions
@@ -67,13 +76,21 @@ function reduceInitialGen() {
        return d["Region"];
    });
 
+   var comYearDim = ndx.dimension(function (d) {
+       return d["Composite Year"];
+   });
+
    var filterDimension = ndx.dimension(function(d) {return d["Region"];});
 
        filterDimension.filter(function (d) { return d !== 'England'; });
 
+   // var RowYearDim = ndx.dimension(function(d) {
+   //  return d["Year"].getFullYear(); });     // comma removal experiment - remove 83-84 if it doesn't work
+
    // Groups go here
 
     var numYear = YearDim.group();
+    var numComYear = comYearDim.group();
     var numMhEmployed = YearDim.group().reduce(reduceAdd, reduceRemove, reduceInitial);
     var numPopEmployed = YearDim.group().reduce(reduceAddGen, reduceRemoveGen, reduceInitialGen);
     var numRegion = regionDim.group().reduceCount(function(d) { return d["Region"];});
@@ -94,14 +111,14 @@ function reduceInitialGen() {
        .width(800)
        .height(500)
        .margins({top: 10, right: 50, bottom: 30, left: 50})
-       .dimension(YearDim)
+       .dimension(comYearDim)  // was YearDim
        .transitionDuration(500)
-       .x(d3.scale.linear().domain([2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]))
+       .x(d3.scale.linear().domain(["'06", "'07", "'08", "'09", "'10", "'11", "'12", "'13", "'14"]))
        .y(d3.scale.linear().domain([0, 100]))
-       .xAxisLabel("Year")
+       .xAxisLabel("Year (2006-2014)")
        .elasticX(true)
        .brushOn(false)
-       .title(false)  // fixes 'object bug'
+       .title(false)
        .yAxisLabel("Employment rate (in %)")
        .compose([dc.lineChart(YearChart).group(numPopEmployed, "Employment rate of general population").colors('#2e59cd').valueAccessor(function(k) { return k.value.average }).renderArea(true),dc.lineChart(YearChart).group(numMhEmployed, "Employment rate of people with mental illness").colors('#ff6680').valueAccessor(function(k) { return k.value.average }).renderArea(true)])
        .legend(dc.legend().x(550).y(0).gap(5))

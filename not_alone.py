@@ -41,7 +41,8 @@ def mentalHealth_employment():
     # A constant that defines the record fields that we wish to retrieve.
     FIELDS = {
         '_id': False, 'Year': True, 'Quarter': True, 'Region': True, 'Age': True, 'Gender': True,
-        'Employment rate of people with mental illness': True, 'Employment rate of population': True
+        'Employment rate of people with mental illness': True, 'Employment rate of population': True,
+        'Composite Year': True
     }
 
     # Open a connection to MongoDB using a with statement such that the
