@@ -28,14 +28,14 @@ Please feel free to make any changes or additions you see fit, then submit a pul
 ### Getting the code up and running
 1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command
 2. After you've done that you'll need to make sure that you have **MongoDB** installed
-  1. Treehouse offer a fantastic explanation on downloading and installing MongoDB [here](https://treehouse.github.io/installation-guides/mac/mongo-mac.html)
-  2. Alternatively, the good folks over at MongoDB walk you through installation on Windows [here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
-3. Once **MongoDB** is installed, you'll need to install *Flask*
-  1. You can find instructions for Mac [here](http://www1.cmc.edu/pages/faculty/alee/cs40/penv/installFlaskOnMac.html)
-  2. And instructions for Windows [here](http://www1.cmc.edu/pages/faculty/alee/cs40/penv/installFlaskOnWindows.html)
+  1. Treehouse offer a fantastic explanation on downloading and installing **MongoDB** [here](https://treehouse.github.io/installation-guides/mac/mongo-mac.html)
+  2. Alternatively, the good folks over at **MongoDB** walk you through installation on Windows [here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
+3. Once **MongoDB** is installed, you'll need to install **Flask**
+  1. You can find instructions for installing **Flask** for Mac [here](http://www1.cmc.edu/pages/faculty/alee/cs40/penv/installFlaskOnMac.html)
+  2. And instructions for installing **Flask** for Windows [here](http://www1.cmc.edu/pages/faculty/alee/cs40/penv/installFlaskOnWindows.html)
 4. Once **MongoDB** is installed run ```mongod``` in the command line
 6. Run the project in PyCharm. Specifically the not_alone.py file in the project root directory.
-7. Once you have done this the project can be found on[localhost](http://127.0.0.1:5000)
+7. Once you have done this the project can be found on [localhost](http://127.0.0.1:5000)
 7. Make changes to the code and if you think it belongs in here then just submit a pull request
 
 ## Validation:
