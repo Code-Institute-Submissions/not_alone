@@ -7,15 +7,15 @@ In my opinion, mental illness is not discussed openly or often enough without fe
 In the charts section we highlight the stark contrasts in employment rates between people with mental illnesses and the general population. It is my hope that this raises awareness to the issue.
 
 ### Further thoughts on site design
-I want the site to be bright, airy and happy - People are coming there to leave with a new lease on life, so it doesn't need to be all doom and gloom and boring facts and figures, similar to what I've been met with in the past when looking for advice - it's going to be an open forum where people can discuss their experiences, and that includes how amazing they feel after coming out the other side, as well as genuine care and support during our lowest moments. In terms of the human race as a whole, we generally all care about each other - we just need a platform that gives us the opportunity to show that. This will be a good place to be.
+I want the site to be bright, airy and happy - People are coming here to leave with a new lease on life, so it doesn't need to be all doom and gloom and boring facts and figures, similar to what I've been met with in the past when looking for advice - it's going to be an open forum where people can discuss their experiences, and that includes how amazing they feel after coming out the other side, as well as genuine care and support during our lowest moments. In terms of the human race as a whole, we generally all care about each other - we just need a platform that gives us the opportunity to show that. This will be a good place to be.
 
 ### What does the code do?
-The code contained in these files will display information through the immediacy and accessibility of data visualisation graphs and tables, as well as provide links and solutions for people looking for help.
+The code contained in these files will display information through the immediacy and accessibility of data visualisation graphs and tables.
 
 ## Features
 
 ### Existing Features
-Features include the ability to take a tour in the charts section, and dynamically alter the charts output bys selecting different regions on the pie chart.
+Features include the ability to take a tour in the charts section, and dynamically alter the charts output by selecting different regions on the pie chart.
 
 ### Features Left to Implement
 1. Blog section where users can contribute.
@@ -27,31 +27,19 @@ Please feel free to make any changes or additions you see fit, then submit a pul
 
 ### Getting the code up and running
 1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command
-2. After you've that you'll need to make sure that you have **npm** and **bower** installed
-  1. You can get **npm** by installing Node from [here](https://nodejs.org/en/)
-  2. Once you've done this you'll need to run the following command:
-  	 `npm install -g bower # this may require sudo on Mac/Linux`
-3. Once **npm** and **bower** are installed, you'll need to install all of the dependencies in *package.json* and *bower.json*
-  ```
-  npm install
-
-  bower install
-  ```
-4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
-5. Once **http-server** is installed run ```http-server```
-6. The project will now run on [localhost](http://127.0.0.1:8080)
+2. After you've done that you'll need to make sure that you have **MongoDB** installed
+  1. Treehouse offer a fantastic explanation on downloading and installing MongoDB [here](https://treehouse.github.io/installation-guides/mac/mongo-mac.html)
+  2. Alternatively, the good folks over at MongoDB walk you through installation on Windows [here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
+3. Once **MongoDB** is installed, you'll need to install *Flask*
+  1. You can find instructions for Mac [here](http://www1.cmc.edu/pages/faculty/alee/cs40/penv/installFlaskOnMac.html)
+  2. And instructions for Windows [here](http://www1.cmc.edu/pages/faculty/alee/cs40/penv/installFlaskOnWindows.html)
+4. Once **MongoDB** is installed run ```mongod``` in the command line
+6. Run the project in PyCharm. Specifically the not_alone.py file in the project root directory.
+7. Once you have done this the project can be found on[localhost](http://127.0.0.1:5000)
 7. Make changes to the code and if you think it belongs in here then just submit a pull request
-
-## Tech Used
-
-### Some of the tech used includes:
 
 ## Validation:
 All relevant code has been run through a Markup Validation service here: https://validator.w3.org/check
-
-
-## Built with:
-
 
 ## Acknowledgements:
 - Matt Rudge (Tutor at Code Institute) - for guidance and advice
