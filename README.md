@@ -3,7 +3,8 @@
 ## Overview
 
 ### Why does I Am Not Alone exist?
-In my opinion, mental illness is not discussed openly or often enough without fear or embarassment. I hope this site can go some way to eliminating the stigma, and toward assuring people that they are not alone in this.
+In my opinion, mental illness is not discussed openly or often enough without fear or embarrassment. I hope this site can go some way to eliminating the stigma, and toward assuring people that they are not alone in this.
+In the charts section we highlight the stark contrasts in employment rates between people with mental illnesses and the general population. It is my hope that this raises awareness to the issue.
 
 ### Further thoughts on site design
 I want the site to be bright, airy and happy - People are coming there to leave with a new lease on life, so it doesn't need to be all doom and gloom and boring facts and figures, similar to what I've been met with in the past when looking for advice - it's going to be an open forum where people can discuss their experiences, and that includes how amazing they feel after coming out the other side, as well as genuine care and support during our lowest moments. In terms of the human race as a whole, we generally all care about each other - we just need a platform that gives us the opportunity to show that. This will be a good place to be.
