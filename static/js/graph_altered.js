@@ -10,17 +10,17 @@ function makeGraphs(error, projectsJson) {
     var mhEmployment = projectsJson;
 
 
-//        var dateFormat = d3.time.format("%Y-%m-%d");
-//    mhEmployment.forEach(function (d) {
-//         d["Year"] = dateFormat.parse(d["Year"]+"-1-1");
-//         d["Year"].setDate(1);
-//    });
-// // experimenting with comma bug - remove 13 - 17 after if it doesn't work
+       var dateFormat = d3.time.format("%Y-%m-%d");
+   mhEmployment.forEach(function (d) {
+        d["Year"] = dateFormat.parse(d["Year"]+"-1-1");
+        d["Year"].setDate(1);
+   });
+
 
 
     var ndx = crossfilter(mhEmployment);
 
-    // new functions
+    // New functions
 
     function reduceAdd(p, v) {
         ++p.count;
@@ -76,23 +76,22 @@ function reduceInitialGen() {
        return d["Region"];
    });
 
-   var comYearDim = ndx.dimension(function (d) {
-       return d["Composite Year"];
+   var rowYearDim = ndx.dimension(function (d) {
+       return d["Row Year"];
    });
 
    var filterDimension = ndx.dimension(function(d) {return d["Region"];});
 
        filterDimension.filter(function (d) { return d !== 'England'; });
 
-   // var RowYearDim = ndx.dimension(function(d) {
-   //  return d["Year"].getFullYear(); });     // comma removal experiment - remove 83-84 if it doesn't work
-
-   // Groups go here
+   // Groups
 
     var numYear = YearDim.group();
-    var numComYear = comYearDim.group();
+    var numRowYear = rowYearDim.group();
     var numMhEmployed = YearDim.group().reduce(reduceAdd, reduceRemove, reduceInitial);
     var numPopEmployed = YearDim.group().reduce(reduceAddGen, reduceRemoveGen, reduceInitialGen);
+    var numRowMhEmployed = rowYearDim.group().reduce(reduceAdd, reduceRemove, reduceInitial);
+    var numRowPopEmployed = rowYearDim.group().reduce(reduceAddGen, reduceRemoveGen, reduceInitialGen);  // ALTERATION - lines 96-97 - new groups
     var numRegion = regionDim.group().reduceCount(function(d) { return d["Region"];});
 
     //Chart definitions
@@ -111,9 +110,9 @@ function reduceInitialGen() {
        .width(800)
        .height(500)
        .margins({top: 10, right: 50, bottom: 30, left: 50})
-       .dimension(comYearDim)  // was YearDim
+       .dimension(YearDim)
        .transitionDuration(500)
-       .x(d3.scale.linear().domain(["'06", "'07", "'08", "'09", "'10", "'11", "'12", "'13", "'14"]))
+       .x(d3.time.scale().domain([minYear, maxYear]))
        .y(d3.scale.linear().domain([0, 100]))
        .xAxisLabel("Year (2006-2014)")
        .elasticX(true)
@@ -127,8 +126,8 @@ function reduceInitialGen() {
         MhEmployedChart
        .width(550)
        .height(250)
-       .dimension(YearDim)
-       .group(numMhEmployed)
+       .dimension(rowYearDim)
+       .group(numRowMhEmployed)
        .colors(colorScale)
        .valueAccessor(function(k) { return k.value.average })
        .xAxis().ticks(8);
@@ -136,8 +135,8 @@ function reduceInitialGen() {
         PopEmployedChart
        .width(550)
        .height(250)
-       .dimension(YearDim)
-       .group(numPopEmployed)
+       .dimension(rowYearDim)
+       .group(numRowPopEmployed)
        .colors(colorScale)
        .valueAccessor(function(k) { return k.value.average })
        .xAxis().ticks(8);

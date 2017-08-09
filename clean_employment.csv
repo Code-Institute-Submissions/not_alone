@@ -1,0 +1,710 @@
+Year,Region,Employment rate of people with mental illness,Employment rate of population ,Row Year
+2006,East Midlands ,30,74,2006
+2006,East Midlands ,29,75,2006
+2006,Eastern ,30,75,2006
+2006,Eastern ,31,75,2006
+2006,England,27,47,2006
+2006,England,29,55,2006
+2006,England,33,80,2006
+2006,England,31,80,2006
+2006,England,30,81,2006
+2006,England,30,83,2006
+2006,England,30,83,2006
+2006,England,28,80,2006
+2006,England,21,70,2006
+2006,England,13,45,2006
+2006,England,23,47,2006
+2006,England,36,71,2006
+2006,England,31,80,2006
+2006,England,27,80,2006
+2006,England,35,81,2006
+2006,England,35,83,2006
+2006,England,34,84,2006
+2006,England,25,80,2006
+2006,England,25,70,2006
+2006,England,14,69,2006
+2006,England,26,73,2006
+2006,England,28,73,2006
+2006,London ,25,68,2006
+2006,London ,25,68,2006
+2006,Merseyside ,13,68,2006
+2006,Merseyside ,13,66,2006
+2006,North East ,18,69,2006
+2006,North East ,25,69,2006
+2006,North West ,20,72,2006
+2006,North West ,22,73,2006
+2006,South East ,36,77,2006
+2006,South East ,38,77,2006
+2006,South West ,33,76,2006
+2006,South West ,34,76,2006
+2006,West Midlands ,23,71,2006
+2006,West Midlands ,26,72,2006
+2006,Yorkshire,23,72,2006
+2006,Yorkshire,26,71,2006
+2007,East Midlands ,28,73,2007
+2007,East Midlands ,27,74,2007
+2007,East Midlands ,26,73,2007
+2007,East Midlands ,27,73,2007
+2007,Eastern ,30,76,2007
+2007,Eastern ,31,75,2007
+2007,Eastern ,31,75,2007
+2007,Eastern ,33,75,2007
+2007,England,28,46,2007
+2007,England,35,69,2007
+2007,England,34,79,2007
+2007,England,35,81,2007
+2007,England,28,81,2007
+2007,England,32,83,2007
+2007,England,28,83,2007
+2007,England,28,80,2007
+2007,England,20,70,2007
+2007,England,12,46,2007
+2007,England,27,45,2007
+2007,England,35,70,2007
+2007,England,34,80,2007
+2007,England,29,80,2007
+2007,England,29,80,2007
+2007,England,30,83,2007
+2007,England,26,82,2007
+2007,England,34,80,2007
+2007,England,20,69,2007
+2007,England,10,45,2007
+2007,England,27,41,2007
+2007,England,27,67,2007
+2007,England,37,79,2007
+2007,England,32,80,2007
+2007,England,25,80,2007
+2007,England,29,83,2007
+2007,England,27,82,2007
+2007,England,32,80,2007
+2007,England,19,69,2007
+2007,England,12,45,2007
+2007,England,26,42,2007
+2007,England,31,67,2007
+2007,England,33,79,2007
+2007,England,30,89,2007
+2007,England,25,80,2007
+2007,England,30,83,2007
+2007,England,26,82,2007
+2007,England,31,80,2007
+2007,England,25,69,2007
+2007,England,12,44,2007
+2007,England,27,73,2007
+2007,England,27,73,2007
+2007,England,26,72,2007
+2007,England,26,72,2007
+2007,England,26,67,2007
+2007,England,28,79,2007
+2007,England,27,66,2007
+2007,England,27,79,2007
+2007,England,27,66,2007
+2007,England,26,78,2007
+2007,England,26,66,2007
+2007,England,27,78,2007
+2007,London ,21,69,2007
+2007,London ,20,69,2007
+2007,London ,21,68,2007
+2007,London ,24,69,2007
+2007,Merseyside ,16,65,2007
+2007,Merseyside ,19,63,2007
+2007,Merseyside ,9,66,2007
+2007,Merseyside ,18,67,2007
+2007,North East ,18,69,2007
+2007,North East ,21,70,2007
+2007,North East ,18,69,2007
+2007,North East ,15,68,2007
+2007,North West ,24,72,2007
+2007,North West ,24,72,2007
+2007,North West ,20,71,2007
+2007,North West ,20,71,2007
+2007,South East ,41,77,2007
+2007,South East ,42,77,2007
+2007,South East ,38,76,2007
+2007,South East ,34,76,2007
+2007,South West ,31,77,2007
+2007,South West ,30,76,2007
+2007,South West ,35,75,2007
+2007,South West ,35,75,2007
+2007,West Midlands ,22,71,2007
+2007,West Midlands ,23,71,2007
+2007,West Midlands ,26,70,2007
+2007,West Midlands ,26,70,2007
+2007,Yorkshire,23,72,2007
+2007,Yorkshire,24,71,2007
+2007,Yorkshire,21,70,2007
+2007,Yorkshire,21,70,2007
+2008,East Midlands ,33,74,2008
+2008,East Midlands ,32,74,2008
+2008,East Midlands ,30,72,2008
+2008,East Midlands ,32,73,2008
+2008,Eastern ,31,75,2008
+2008,Eastern ,32,75,2008
+2008,Eastern ,30,75,2008
+2008,Eastern ,30,75,2008
+2008,England,20,43,2008
+2008,England,38,67,2008
+2008,England,35,79,2008
+2008,England,31,81,2008
+2008,England,30,81,2008
+2008,England,25,82,2008
+2008,England,28,83,2008
+2008,England,27,80,2008
+2008,England,23,71,2008
+2008,England,16,46,2008
+2008,England,23,45,2008
+2008,England,37,68,2008
+2008,England,35,79,2008
+2008,England,31,80,2008
+2008,England,27,80,2008
+2008,England,29,82,2008
+2008,England,30,83,2008
+2008,England,27,80,2008
+2008,England,24,70,2008
+2008,England,16,46,2008
+2008,England,25,43,2008
+2008,England,37,66,2008
+2008,England,38,80,2008
+2008,England,32,80,2008
+2008,England,29,81,2008
+2008,England,27,82,2008
+2008,England,25,83,2008
+2008,England,29,80,2008
+2008,England,22,71,2008
+2008,England,15,46,2008
+2008,England,20,44,2008
+2008,England,34,66,2008
+2008,England,35,80,2008
+2008,England,34,80,2008
+2008,England,25,80,2008
+2008,England,32,83,2008
+2008,England,27,83,2008
+2008,England,30,81,2008
+2008,England,21,70,2008
+2008,England,15,46,2008
+2008,England,27,72,2008
+2008,England,28,72,2008
+2008,England,27,72,2008
+2008,England,28,73,2008
+2008,England,27,66,2008
+2008,England,28,78,2008
+2008,England,28,66,2008
+2008,England,28,79,2008
+2008,England,27,66,2008
+2008,England,27,78,2008
+2008,England,25,66,2008
+2008,England,28,79,2008
+2008,London ,23,70,2008
+2008,London ,20,70,2008
+2008,London ,18,70,2008
+2008,London ,22,70,2008
+2008,Merseyside ,19,64,2008
+2008,Merseyside ,16,64,2008
+2008,Merseyside ,17,64,2008
+2008,Merseyside ,14,63,2008
+2008,North East ,19,68,2008
+2008,North East ,22,68,2008
+2008,North East ,19,68,2008
+2008,North East ,19,68,2008
+2008,North West ,23,70,2008
+2008,North West ,22,71,2008
+2008,North West ,22,71,2008
+2008,North West ,24,71,2008
+2008,South East ,34,76,2008
+2008,South East ,36,77,2008
+2008,South East ,40,77,2008
+2008,South East ,41,77,2008
+2008,South West ,32,76,2008
+2008,South West ,36,76,2008
+2008,South West ,33,76,2008
+2008,South West ,32,76,2008
+2008,West Midlands ,24,70,2008
+2008,West Midlands ,25,70,2008
+2008,West Midlands ,27,70,2008
+2008,West Midlands ,25,71,2008
+2008,Yorkshire,27,70,2008
+2008,Yorkshire,27,71,2008
+2008,Yorkshire,27,71,2008
+2008,Yorkshire,24,71,2008
+2009,East Midlands ,32,72,2009
+2009,East Midlands ,29,73,2009
+2009,East Midlands ,27,72,2009
+2009,East Midlands ,32,72,2009
+2009,Eastern ,31,74,2009
+2009,Eastern ,33,75,2009
+2009,Eastern ,32,74,2009
+2009,Eastern ,33,75,2009
+2009,England,20,37,2009
+2009,England,30,63,2009
+2009,England,36,77,2009
+2009,England,30,79,2009
+2009,England,24,79,2009
+2009,England,33,82,2009
+2009,England,29,82,2009
+2009,England,29,80,2009
+2009,England,29,71,2009
+2009,England,14,45,2009
+2009,England,23,39,2009
+2009,England,30,64,2009
+2009,England,32,77,2009
+2009,England,33,78,2009
+2009,England,32,80,2009
+2009,England,30,81,2009
+2009,England,28,82,2009
+2009,England,25,79,2009
+2009,England,24,70,2009
+2009,England,15,45,2009
+2009,England,18,37,2009
+2009,England,35,62,2009
+2009,England,30,76,2009
+2009,England,25,78,2009
+2009,England,21,80,2009
+2009,England,30,81,2009
+2009,England,31,82,2009
+2009,England,29,79,2009
+2009,England,24,71,2009
+2009,England,17,45,2009
+2009,England,20,40,2009
+2009,England,37,63,2009
+2009,England,34,78,2009
+2009,England,29,79,2009
+2009,England,32,80,2009
+2009,England,29,82,2009
+2009,England,30,82,2009
+2009,England,30,80,2009
+2009,England,22,71,2009
+2009,England,19,46,2009
+2009,England,28,71,2009
+2009,England,27,71,2009
+2009,England,27,70,2009
+2009,England,28,71,2009
+2009,England,28,66,2009
+2009,England,27,76,2009
+2009,England,26,66,2009
+2009,England,26,76,2009
+2009,England,28,65,2009
+2009,England,27,76,2009
+2009,England,28,66,2009
+2009,England,29,77,2009
+2009,London ,27,68,2009
+2009,London ,23,68,2009
+2009,London ,22,67,2009
+2009,London ,23,69,2009
+2009,Merseyside ,18,64,2009
+2009,Merseyside ,14,65,2009
+2009,Merseyside ,16,66,2009
+2009,Merseyside ,17,65,2009
+2009,North East ,25,67,2009
+2009,North East ,22,66,2009
+2009,North East ,24,64,2009
+2009,North East ,24,67,2009
+2009,North West ,22,69,2009
+2009,North West ,22,69,2009
+2009,North West ,23,69,2009
+2009,North West ,22,70,2009
+2009,South East ,37,75,2009
+2009,South East ,34,75,2009
+2009,South East ,37,75,2009
+2009,South East ,34,75,2009
+2009,South West ,28,73,2009
+2009,South West ,33,73,2009
+2009,South West ,30,74,2009
+2009,South West ,35,75,2009
+2009,West Midlands ,26,69,2009
+2009,West Midlands ,29,68,2009
+2009,West Midlands ,28,68,2009
+2009,West Midlands ,27,68,2009
+2009,Yorkshire,25,69,2009
+2009,Yorkshire,24,69,2009
+2009,Yorkshire,26,68,2009
+2009,Yorkshire,29,69,2009
+2010,East Midlands ,31,71,2010
+2010,East Midlands ,31,71,2010
+2010,East Midlands ,28,70,2010
+2010,East Midlands ,31,70,2010
+2010,Eastern ,33,74,2010
+2010,Eastern ,30,74,2010
+2010,Eastern ,33,73,2010
+2010,Eastern ,31,73,2010
+2010,England,19,35,2010
+2010,England,27,63,2010
+2010,England,36,78,2010
+2010,England,33,80,2010
+2010,England,32,79,2010
+2010,England,31,81,2010
+2010,England,38,82,2010
+2010,England,28,79,2010
+2010,England,23,71,2010
+2010,England,12,45,2010
+2010,England,20,37,2010
+2010,England,33,66,2010
+2010,England,34,77,2010
+2010,England,33,79,2010
+2010,England,31,78,2010
+2010,England,35,81,2010
+2010,England,35,83,2010
+2010,England,30,80,2010
+2010,England,27,71,2010
+2010,England,11,45,2010
+2010,England,20,35,2010
+2010,England,31,61,2010
+2010,England,36,77,2010
+2010,England,35,79,2010
+2010,England,27,79,2010
+2010,England,36,81,2010
+2010,England,34,82,2010
+2010,England,32,80,2010
+2010,England,26,71,2010
+2010,England,14,44,2010
+2010,England,20,35,2010
+2010,England,31,60,2010
+2010,England,38,76,2010
+2010,England,36,78,2010
+2010,England,29,79,2010
+2010,England,35,81,2010
+2010,England,32,82,2010
+2010,England,30,79,2010
+2010,England,31,72,2010
+2010,England,11,45,2010
+2010,England,28,71,2010
+2010,England,29,71,2010
+2010,England,29,70,2010
+2010,England,30,70,2010
+2010,England,30,65,2010
+2010,England,26,65,2010
+2010,England,30,65,2010
+2010,England,28,77,2010
+2010,England,30,65,2010
+2010,England,28,75,2010
+2010,England,30,65,2010
+2010,England,28,75,2010
+2010,London ,30,68,2010
+2010,London ,29,69,2010
+2010,London ,29,68,2010
+2010,London ,30,67,2010
+2010,Merseyside ,18,64,2010
+2010,Merseyside ,22,64,2010
+2010,Merseyside ,19,64,2010
+2010,Merseyside ,21,64,2010
+2010,North East ,20,65,2010
+2010,North East ,22,68,2010
+2010,North East ,23,67,2010
+2010,North East ,25,66,2010
+2010,North West ,25,70,2010
+2010,North West ,26,70,2010
+2010,North West ,26,70,2010
+2010,North West ,24,69,2010
+2010,South East ,37,75,2010
+2010,South East ,38,75,2010
+2010,South East ,39,74,2010
+2010,South East ,41,74,2010
+2010,South West ,28,74,2010
+2010,South West ,29,74,2010
+2010,South West ,30,73,2010
+2010,South West ,30,72,2010
+2010,West Midlands ,25,68,2010
+2010,West Midlands ,28,69,2010
+2010,West Midlands ,26,69,2010
+2010,West Midlands ,26,68,2010
+2010,Yorkshire,24,68,2010
+2010,Yorkshire,26,68,2010
+2010,Yorkshire,28,69,2010
+2010,Yorkshire,29,68,2010
+2011,East Midlands ,33,71,2011
+2011,East Midlands ,34,72,2011
+2011,East Midlands ,35,71,2011
+2011,East Midlands ,35,71,2011
+2011,Eastern ,40,74,2011
+2011,Eastern ,35,74,2011
+2011,Eastern ,37,74,2011
+2011,Eastern ,36,74,2011
+2011,England,17,34,2011
+2011,England,30,62,2011
+2011,England,32,76,2011
+2011,England,35,79,2011
+2011,England,32,80,2011
+2011,England,32,82,2011
+2011,England,37,82,2011
+2011,England,34,80,2011
+2011,England,25,70,2011
+2011,England,18,43,2011
+2011,England,17,34,2011
+2011,England,26,63,2011
+2011,England,32,76,2011
+2011,England,33,78,2011
+2011,England,31,79,2011
+2011,England,32,82,2011
+2011,England,37,81,2011
+2011,England,31,80,2011
+2011,England,25,69,2011
+2011,England,16,44,2011
+2011,England,16,33,2011
+2011,England,28,62,2011
+2011,England,32,77,2011
+2011,England,29,79,2011
+2011,England,30,79,2011
+2011,England,30,81,2011
+2011,England,34,82,2011
+2011,England,29,79,2011
+2011,England,25,70,2011
+2011,England,14,45,2011
+2011,England,17,33,2011
+2011,England,31,61,2011
+2011,England,34,78,2011
+2011,England,34,79,2011
+2011,England,30,80,2011
+2011,England,31,81,2011
+2011,England,34,82,2011
+2011,England,29,79,2011
+2011,England,22,70,2011
+2011,England,13,45,2011
+2011,England,30,70,2011
+2011,England,29,70,2011
+2011,England,27,70,2011
+2011,England,28,70,2011
+2011,England,29,65,2011
+2011,England,27,75,2011
+2011,England,31,65,2011
+2011,England,26,76,2011
+2011,England,29,65,2011
+2011,England,25,75,2011
+2011,England,30,65,2011
+2011,England,25,75,2011
+2011,London ,24,67,2011
+2011,London ,24,67,2011
+2011,London ,23,68,2011
+2011,London ,25,68,2011
+2011,Merseyside ,21,64,2011
+2011,Merseyside ,23,66,2011
+2011,Merseyside ,19,66,2011
+2011,Merseyside ,17,65,2011
+2011,North East ,21,66,2011
+2011,North East ,19,65,2011
+2011,North East ,19,66,2011
+2011,North East ,19,65,2011
+2011,North West ,22,70,2011
+2011,North West ,25,69,2011
+2011,North West ,23,69,2011
+2011,North West ,24,68,2011
+2011,South East ,37,74,2011
+2011,South East ,36,74,2011
+2011,South East ,33,74,2011
+2011,South East ,35,75,2011
+2011,South West ,35,74,2011
+2011,South West ,34,74,2011
+2011,South West ,28,72,2011
+2011,South West ,31,73,2011
+2011,West Midlands ,28,68,2011
+2011,West Midlands ,26,68,2011
+2011,West Midlands ,23,67,2011
+2011,West Midlands ,19,67,2011
+2011,Yorkshire,27,68,2011
+2011,Yorkshire,23,68,2011
+2011,Yorkshire,24,68,2011
+2011,Yorkshire,26,68,2011
+2012,East Midlands,32,71,2012
+2012,East Midlands ,28,71,2012
+2012,East Midlands ,26,71,2012
+2012,East Midlands ,29,71,2012
+2012,Eastern,39,75,2012
+2012,Eastern ,41,74,2012
+2012,Eastern ,44,74,2012
+2012,Eastern ,41,74,2012
+2012,England,20,35,2012
+2012,England,36,63,2012
+2012,England,39,77,2012
+2012,England,39,80,2012
+2012,England,43,81,2012
+2012,England,38,82,2012
+2012,England,33,83,2012
+2012,England,33,81,2012
+2012,England,31,72,2012
+2012,England,16,46,2012
+2012,England,19,36,2012
+2012,England,31,64,2012
+2012,England,38,76,2012
+2012,England,37,80,2012
+2012,England,41,81,2012
+2012,England,37,82,2012
+2012,England,36,82,2012
+2012,England,34,80,2012
+2012,England,29,71,2012
+2012,England,15,46,2012
+2012,England,19,33,2012
+2012,England,30,61,2012
+2012,England,38,76,2012
+2012,England,35,79,2012
+2012,England,36,80,2012
+2012,England,36,82,2012
+2012,England,35,82,2012
+2012,England,30,80,2012
+2012,England,28,71,2012
+2012,England,17,45,2012
+2012,England,18,33,2012
+2012,England,25,60,2012
+2012,England,34,76,2012
+2012,England,34,79,2012
+2012,England,38,80,2012
+2012,England,33,82,2012
+2012,England,35,82,2012
+2012,England,33,80,2012
+2012,England,25,70,2012
+2012,England,14,44,2012
+2012,England,33,72,2012
+2012,England,32,71,2012
+2012,England,31,71,2012
+2012,England,29,70,2012
+2012,England,34,66,2012
+2012,England,32,77,2012
+2012,England,32,66,2012
+2012,England,32,77,2012
+2012,England,31,65,2012
+2012,England,31,76,2012
+2012,England,31,65,2012
+2012,England,27,75,2012
+2012,London,30,70,2012
+2012,London ,29,69,2012
+2012,London ,27,68,2012
+2012,London ,21,67,2012
+2012,Merseyside,24,69,2012
+2012,Merseyside ,16,66,2012
+2012,Merseyside ,14,67,2012
+2012,Merseyside ,16,64,2012
+2012,North East,25,68,2012
+2012,North East ,24,68,2012
+2012,North East ,22,66,2012
+2012,North East ,23,66,2012
+2012,North West,24,70,2012
+2012,North West ,29,70,2012
+2012,North West ,28,70,2012
+2012,North West ,24,68,2012
+2012,South East,42,75,2012
+2012,South East ,42,74,2012
+2012,South East ,38,74,2012
+2012,South East ,40,74,2012
+2012,South West,37,75,2012
+2012,South West ,35,75,2012
+2012,South West ,34,73,2012
+2012,South West ,29,72,2012
+2012,West Midlands,33,71,2012
+2012,West Midlands ,31,70,2012
+2012,West Midlands ,28,68,2012
+2012,West Midlands ,26,68,2012
+2012,Yorkshire,32,70,2012
+2012,Yorkshire,31,70,2012
+2012,Yorkshire,30,69,2012
+2012,Yorkshire,28,68,2012
+2013,East Midlands,38,72,2013
+2013,East Midlands,36,73,2013
+2013,East Midlands,32,70,2013
+2013,East Midlands,33,70,2013
+2013,Eastern,39,75,2013
+2013,Eastern,41,75,2013
+2013,Eastern,40,75,2013
+2013,Eastern,38,74,2013
+2013,England,15,33,2013
+2013,England,34,64,2013
+2013,England,39,78,2013
+2013,England,51,81,2013
+2013,England,44,82,2013
+2013,England,39,82,2013
+2013,England,36,82,2013
+2013,England,37,81,2013
+2013,England,33,73,2013
+2013,England,18,47,2013
+2013,England,14,34,2013
+2013,England,34,64,2013
+2013,England,34,77,2013
+2013,England,48,81,2013
+2013,England,45,81,2013
+2013,England,41,81,2013
+2013,England,37,82,2013
+2013,England,36,80,2013
+2013,England,33,73,2013
+2013,England,18,47,2013
+2013,England,14,31,2013
+2013,England,33,60,2013
+2013,England,31,77,2013
+2013,England,46,81,2013
+2013,England,41,81,2013
+2013,England,41,81,2013
+2013,England,34,82,2013
+2013,England,36,81,2013
+2013,England,29,73,2013
+2013,England,16,46,2013
+2013,England,16,32,2013
+2013,England,35,61,2013
+2013,England,38,77,2013
+2013,England,34,80,2013
+2013,England,43,81,2013
+2013,England,39,81,2013
+2013,England,32,82,2013
+2013,England,35,81,2013
+2013,England,30,72,2013
+2013,England,14,46,2013
+2013,England,35,72,2013
+2013,England,35,72,2013
+2013,England,33,71,2013
+2013,England,32,71,2013
+2013,England,37,67,2013
+2013,England,33,77,2013
+2013,England,35,66,2013
+2013,England,34,77,2013
+2013,England,34,66,2013
+2013,England,31,76,2013
+2013,England,34,66,2013
+2013,England,29,76,2013
+2013,London,31,71,2013
+2013,London,30,70,2013
+2013,London,28,69,2013
+2013,London,29,70,2013
+2013,Merseyside,21,66,2013
+2013,Merseyside,21,65,2013
+2013,Merseyside,22,69,2013
+2013,Merseyside,25,68,2013
+2013,North East,33,67,2013
+2013,North East,29,68,2013
+2013,North East,29,66,2013
+2013,North East,27,66,2013
+2013,North West,29,69,2013
+2013,North West,29,69,2013
+2013,North West,28,69,2013
+2013,North West,24,68,2013
+2013,South East,45,76,2013
+2013,South East,43,65,2013
+2013,South East,40,75,2013
+2013,South East,39,74,2013
+2013,South West,39,75,2013
+2013,South West,40,75,2013
+2013,South West,34,73,2013
+2013,South West,37,74,2013
+2013,West Midlands,31,69,2013
+2013,West Midlands,31,68,2013
+2013,West Midlands,32,68,2013
+2013,West Midlands,31,69,2013
+2013,Yorkshire,34,71,2013
+2013,Yorkshire,34,71,2013
+2013,Yorkshire,3,70,2013
+2013,Yorkshire,31,70,2013
+2014,East Midlands,36,72,2014
+2014,Eastern,39,76,2014
+2014,England,15,32,2014
+2014,England,34,63,2014
+2014,England,40,79,2014
+2014,England,47,81,2014
+2014,England,43,81,2014
+2014,England,43,83,2014
+2014,England,44,83,2014
+2014,England,34,81,2014
+2014,England,29,72,2014
+2014,England,18,48,2014
+2014,England,36,72,2014
+2014,England,37,67,2014
+2014,England,34,77,2014
+2014,London,32,71,2014
+2014,Merseyside,17,68,2014
+2014,North East,33,68,2014
+2014,North West,28,68,2014
+2014,South East,44,75,2014
+2014,South West,43,75,2014
+2014,West Midlands,33,70,2014
+2014,Yorkshire,36,71,2014
