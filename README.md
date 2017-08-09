@@ -16,7 +16,7 @@ The code contained in these files will display information through the immediacy
 ### Existing Features
 Features include the ability to take a tour in the charts section, and dynamically alter the charts output bys selecting different regions on the pie chart.
 
-###Features Left to Implement
+### Features Left to Implement
 1. Blog section where users can contribute.
 2. Login/Logout/Register.
 
