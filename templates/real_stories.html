@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>I Am Not Alone</title>
+  <title>Not-Alone-Now</title>
   <link rel="stylesheet" href="{{ url_for ('static',
     filename='lib/css/bootstrap.min.css')}}">
   <link rel="stylesheet" href="{{ url_for ('static',
@@ -11,15 +11,23 @@
   <link rel="stylesheet" href="{{ url_for ('static', filename='css/custom.css')}}">
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
-  <style type="text/css">
+
+    {# Inline CSS to allow for individual tweaking of each templates media query as different content is added #}
+    <style type="text/css">
         body {
             padding-top: 70px;
             padding-left: 70px;
-            background-image: url("{{ url_for ('static', filename='images/crowd.jpg') }}");
-            background-repeat: repeat-y;
-            background-attachment: fixed;
+            background: url("{{ url_for ('static', filename='images/crowd.jpg') }}") repeat-y fixed;
             display: block;
         }
+      @media screen and (max-width: 1100px) {
+
+        body {
+            padding-top: 70px;
+            padding-left: 70px;
+            background: none repeat-y fixed;
+            display: block;
+        }}
   </style>
 </head>
 
@@ -33,12 +41,13 @@
     </button>
         <nav class="container">
             <header class="navbar-header">
-                <a class="navbar-brand" href=".">I.A.N.A.</a>
+                <a class="navbar-brand" href=".">N.A.N.</a>
             </header>
             <ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
                 <li><a href=".">Home</a></li>
                 <li><a href="real_stories">Real Stories</a></li>
                 <li><a href="charts">Charts</a></li>
+                <li><a href="{{ url_for('videos') }}">Videos</a></li>
             </ul>
         </nav>
     </nav>
@@ -325,8 +334,11 @@ wants to talk.
 </div>
 
 </article>
+<br><br>
+    <footer id="footer">
+        <p id="text2"><a href=".">Not-Alone-Now</a><br><a href="{{ url_for('realStories') }}">Real Stories</a> | <a href="{{ url_for('charts') }}">Charts</a> | <a href="{{ url_for('videos') }}">Videos</a></p>
+    </footer>
 
- <!-- Real Stories Page -->
 
   <script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>

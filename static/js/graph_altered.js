@@ -10,7 +10,7 @@ function makeGraphs(error, projectsJson) {
     var mhEmployment = projectsJson;
 
 
-       var dateFormat = d3.time.format("%Y-%m-%d");
+    var dateFormat = d3.time.format("%Y-%m-%d");
    mhEmployment.forEach(function (d) {
         d["Year"] = dateFormat.parse(d["Year"]+"-1-1");
         d["Year"].setDate(1);
@@ -27,34 +27,34 @@ function makeGraphs(error, projectsJson) {
         p.total += v["Employment rate of people with mental illness"];
         p.average = p.total / p.count;
         return p;
-}
+    }
 
-function reduceRemove(p, v) {
+    function reduceRemove(p, v) {
         --p.count;
         p.total -= v["Employment rate of people with mental illness"];
         p.average = p.total / p.count;
         return p;
-}
+    }
 
-function reduceInitial() {
+    function reduceInitial() {
         return {count: 0, total: 0, average: 0};
-}
+    }
 
    function reduceAddGen(p, v) {
         ++p.count;
         p.total += v["Employment rate of population"];
         p.average = p.total / p.count;
         return p;
-}
+    }
 
-function reduceRemoveGen(p, v) {
+    function reduceRemoveGen(p, v) {
         --p.count;
         p.total -= v["Employment rate of population"];
         p.average = p.total / p.count;
         return p;
-}
+    }
 
-function reduceInitialGen() {
+    function reduceInitialGen() {
         return {count: 0, total: 0, average: 0};
         }
 
@@ -153,4 +153,4 @@ function reduceInitialGen() {
        .externalLabels(40);
 
     dc.renderAll();
-}
+    }

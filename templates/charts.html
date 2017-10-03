@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>I Am Not Alone</title>
+  <title>Not-Alone-Now</title>
   <link rel="stylesheet" href="{{ url_for ('static',
     filename='lib/css/bootstrap.min.css')}}">
   <link rel="stylesheet" href="{{ url_for ('static',
@@ -15,62 +15,66 @@
 </head>
 
 <body class="application">
- <nav id="text" class="navbar navbar-default navbar-fixed-top">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#myCollapsingList">
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    </button>
+    <nav id="text" class="navbar navbar-default navbar-fixed-top">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#myCollapsingList">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
         <nav class="container">
             <header class="navbar-header">
-                <a class="navbar-brand" href=".">I.A.N.A.</a>
+            <a class="navbar-brand" href=".">N.A.N.</a>
             </header>
             <ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
                 <li><a href=".">Home</a></li>
                 <li><a href="real_stories">Real Stories</a></li>
                 <li><a href="charts">Charts</a></li>
+                <li><a href="{{ url_for('videos') }}">Videos</a></li>
             </ul>
         </nav>
     </nav>
 
-  <div  id="outer" class="container-fluid">
-    <div class="row">
-      <div class="col-sm-12">
+    <div  id="outer" class="container-fluid">
         <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+
+
           <!-- Year Chart -->
-          <div class="col-sm-8" data-step="2" data-intro="This is our employment rate composite chart.<br><br>
-          Here we can see the employment rate percentages dynamically reflected, depending on what we select on our pie chart.<br><br>
-          Mental illness employment rates are portrayed in pink, while general population employment rates are in blue.<br><br>
-          Hover over each rates respective key on the legend to highlight your selection.<br><br>
-          Hover over each line above a year and you will be able to read the exact percentage via a tooltip popup." style="font-weight: normal" data-position="right">
+            <div class="col-sm-8" data-step="2" data-intro="This is our employment rate composite chart.<br><br>
+                Here we can see the employment rate percentages dynamically reflected, depending on what we select on our pie chart.<br><br>
+                Mental illness employment rates are portrayed in pink, while general population employment rates are in blue.<br><br>
+                Hover over each rates respective key on the legend to highlight your selection.<br><br>
+                Hover over each line above a year and you will be able to read the exact percentage via a tooltip popup." style="font-weight: normal" data-position="right">
             <div class="chart-wrapper">
               <div id="titles" class="chart-title">
                 Employment rates
               </div>
-              <div class="chart-stage">
-                <div id="Year-chart"></div>
-              </div>
+                <div class="chart-stage">
+                    <div id="Year-chart"></div>
+                </div>
             </div>
-          </div>
+                    </div>
           <!-- Year Chart -->
 
-<div class="scrollbox3" id="text">
+            <div class="scrollbox3" id="text">
 
-<h3 id="text2"><i>Welcome to the charts section!</i></h3>
-<h5 id="text3">Our charts focus on highlighting employment rates, charting a comparison between people with mental illnesses, and the general population.
-    <br><br> Take a tour below to learn how best to access our data:</h5>
+            <h3 id="text2"><i>Welcome to the charts section!</i></h3>
+            <h5 id="text3">Our charts focus on highlighting employment rates, charting a comparison between people with mental illnesses, and the general population.
+            <br><br> Take a tour below to learn how best to access our data:</h5>
 
 
-    <button class="intro_button" id="introButton" type="button" autofocus onclick="javascript:introJs().start();">Start Tour!</button>
+            <button class="intro_button" id="introButton" type="button" autofocus onclick="javascript:introJs().start();">Start Tour!</button>
 
-</div>
+            </div>
+
 
            <!-- pie chart -->
-          <div class="col-sm-4" data-step="1" data-intro="Here we have our region pie chart.<br><br>
-          As default, it will push an employment percentage for the whole of England to all charts.<br><br>
-          Click on a region to display the employment rate percentage for that specific region.<br><br>
-          You can also access the sum percentage of multiple regions by simply clicking on more than one region.<br><br>
-          Note that this pie chart dynamically affects the composite chart on your left, and both row charts below." style="font-weight: normal" data-position="left">
+            <div class="col-sm-4" data-step="1" data-intro="Here we have our region pie chart.<br><br>
+                As default, it will push an employment percentage for the whole of England to all charts.<br><br>
+                Click on a region to display the employment rate percentage for that specific region.<br><br>
+                You can also access the sum percentage of multiple regions by simply clicking on more than one region.<br><br>
+                Note that this pie chart dynamically affects the composite chart on your left, and both row charts below." style="font-weight: normal" data-position="left">
             <div class="chart-wrapper">
               <div id="titles" class="chart-title">
                 Region
@@ -81,6 +85,7 @@
             </div>
           </div>
            <!-- Pie Chart -->
+
 
           <!-- mhEmployment -->
           <div class="col-sm-6" data-step="3" data-intro="Here we have the first of two row charts.<br><br>
@@ -96,6 +101,7 @@
           </div>
           <!-- mhEmployment -->
 
+
           <!-- popEmployment -->
           <div class="col-sm-6" data-step="4" data-intro="...And the second does the same, but for the general population.<br><br>
           Much like with the composite chart, you can hover over a row for the exact percentage." style="font-weight: normal" data-position="left">
@@ -109,6 +115,7 @@
             </div>
           </div>
           <!-- popEmployment -->
+
 
           <div class="scrollbox2" id="text" data-step="5" data-intro="Finally, we have a short write-up on the findings from the data.<br><br>
           Thanks for visiting!" style="font-weight: normal" data-position="left">
@@ -135,8 +142,13 @@
   <script src="{{ url_for ('static', filename='lib/js/dc.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
-  <script src="{{ url_for ('static', filename='js/graph_altered.js')}}"></script>   {# ALTERATION - line 138 - was graph_2.js #}
+  <script src="{{ url_for ('static', filename='js/graph_altered.js')}}"></script>
   <script src="{{url_for ('static', filename='lib/js/intro.js')}}" type="text/javascript"></script>
 </body>
+
+<br><br>
+    <footer id="footer">
+        <p id="text2"><a href=".">Not-Alone-Now</a><br><a href="{{ url_for('realStories') }}">Real Stories</a> | <a href="{{ url_for('charts') }}">Charts</a> | <a href="{{ url_for('videos') }}">Videos</a></p>
+    </footer>
 
 </html>

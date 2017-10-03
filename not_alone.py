@@ -31,6 +31,12 @@ def charts():
     return render_template("charts.html")
 
 
+@app.route("/videos")
+def videos():
+
+    return render_template("videos.html")
+
+
 @app.route("/mentalHealth/employment")
 def mentalHealth_employment():
     """

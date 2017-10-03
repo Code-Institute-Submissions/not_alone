@@ -46,7 +46,7 @@
 
 /* my new css*/
 
-#container{
+#container {
 	display: flex;
 	flex-flow: row wrap;
 	margin-right: auto;
@@ -58,7 +58,7 @@
 	font-size: 0;
 }
 
-.landing-message{
+.landing-message {
 	flex-direction: row;
 	text-align: center;
 	font-family: 'Courgette', cursive;
@@ -69,8 +69,7 @@
 	flex-wrap: nowrap;
 	}
 
-#text
-	{
+#text {
 	font-family: 'Kalam', cursive;
 	color: #808080;
 	font-size: 150%;
@@ -78,12 +77,11 @@
 	display: block;
 	}
 
-#background{
+#background {
 	background-image: url("images/backdrop.jpg");
 }
 
-#text2
-	{
+#text2 {
 	font-family: 'Kalam', cursive;
 	color: #121382;
 	font-variant: small-caps;
@@ -91,8 +89,7 @@
 	display: block;
 	}
 
-#text3
-	{
+#text3 {
 	font-family: 'Kalam', cursive;
 	color: #808080;
 	text-align: center;
@@ -103,28 +100,28 @@
   transform: translate(-20%);
 }
 
-#imageright{
+#imageright {
 	float: right;
 	padding: 5px;
 	padding-right: 20px;
 }
 
-#imagecenter{
+#imagecenter {
 	float: left;
 	padding: 5px;
 }
 
-#brain{
+#brain {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-#captionleft{
+#captionleft {
 	position: block;
 }
 
-.scrollbox{
+.scrollbox {
   overflow: auto;
   width: 600px;
   height: 400px;
@@ -136,7 +133,7 @@
   margin-bottom: 15px;
 }
 
-.scrollbox2{
+.scrollbox2 {
   overflow: auto;
   width: 700px;
   height: 210px;
@@ -148,7 +145,7 @@
   margin-bottom: 15px;
 }
 
-.scrollbox3{
+.scrollbox3 {
   overflow: auto;
   width: 400px;
   height: 210px;
@@ -251,3 +248,18 @@
     background-color: #2e59cd;
   }
 }
+
+#video {
+    display: block;
+    margin: 0 auto;
+}
+
+#video2 {
+    display: grid;
+}
+
+#footer {
+    text-align: center;
+    opacity: 0.7;
+}
+
