@@ -1,0 +1,1 @@
+web: gunicorn not_alone:app

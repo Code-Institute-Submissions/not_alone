@@ -41,7 +41,7 @@
 
 
           <!-- Year Chart -->
-            <div class="col-sm-8" data-step="2" data-intro="This is our employment rate composite chart.<br><br>
+            <div id="flex" class="col-sm-8" data-step="2" data-intro="This is our employment rate composite chart.<br><br>
                 Here we can see the employment rate percentages dynamically reflected, depending on what we select on our pie chart.<br><br>
                 Mental illness employment rates are portrayed in pink, while general population employment rates are in blue.<br><br>
                 Hover over each rates respective key on the legend to highlight your selection.<br><br>
@@ -70,7 +70,7 @@
 
 
            <!-- pie chart -->
-            <div class="col-sm-4" data-step="1" data-intro="Here we have our region pie chart.<br><br>
+            <div id="flex" class="col-sm-4" data-step="1" data-intro="Here we have our region pie chart.<br><br>
                 As default, it will push an employment percentage for the whole of England to all charts.<br><br>
                 Click on a region to display the employment rate percentage for that specific region.<br><br>
                 You can also access the sum percentage of multiple regions by simply clicking on more than one region.<br><br>
@@ -88,7 +88,7 @@
 
 
           <!-- mhEmployment -->
-          <div class="col-sm-6" data-step="3" data-intro="Here we have the first of two row charts.<br><br>
+          <div id="flex" class="col-sm-6" data-step="3" data-intro="Here we have the first of two row charts.<br><br>
           The first of which displays a percentage of people with mental illnesses in employment, pertaining to each year of the study..." style="font-weight: normal" data-position="right">
             <div class="chart-wrapper">
               <div id="titles" class="chart-title">
@@ -103,7 +103,7 @@
 
 
           <!-- popEmployment -->
-          <div class="col-sm-6" data-step="4" data-intro="...And the second does the same, but for the general population.<br><br>
+          <div id="flex" class="col-sm-6" data-step="4" data-intro="...And the second does the same, but for the general population.<br><br>
           Much like with the composite chart, you can hover over a row for the exact percentage." style="font-weight: normal" data-position="left">
             <div class="chart-wrapper">
               <div id="titles" class="chart-title">
@@ -144,6 +144,7 @@
   <script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
   <script src="{{ url_for ('static', filename='js/graph_altered.js')}}"></script>
   <script src="{{url_for ('static', filename='lib/js/intro.js')}}" type="text/javascript"></script>
+
 </body>
 
 <br><br>
