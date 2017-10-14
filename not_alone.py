@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 MONGO_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
 DBS_NAME = os.getenv('MONGO_DB_NAME', 'mentalHealth')
-COLLECTION_NAME = 'employment'
+COLLECTION_NAME = 'projects'
 
 
 @app.route("/")
