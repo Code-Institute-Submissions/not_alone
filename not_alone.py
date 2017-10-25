@@ -10,6 +10,10 @@ MONGO_URI = os.getenv('MONGODB_URI', 'mongodb://localhost:27017')
 DBS_NAME = os.getenv('MONGO_DB_NAME', 'mentalHealth')
 COLLECTION_NAME = 'projects'
 
+if MONGO_URI == "mongodb://localhost:27017":
+    COLLECTION_NAME = 'employment'
+else:
+    COLLECTION_NAME = 'projects'
 
 @app.route("/")
 def index():
